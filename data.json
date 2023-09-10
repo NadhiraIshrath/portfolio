@@ -1,0 +1,375 @@
+{
+  "visual_design": [
+    {
+      "title": "Cake E-commerce Website",
+      "desc": "Order freshly made cakes",
+      "img": "cake_cover.png",
+      "portrait": "false",
+      "bg": "#FFEEF4",
+      "color": "#8B1D47",
+      "color-sec": "#B5265C",
+      "context": "A client approached me to design a website for their cake startup that they had launched recently. They make homemade cakes that look very exotic and taste yummy as well. I wanted to add that happy and creamy feeling when we look at a cake and the decor we see on top of the cake through the website. So I made flowy designs and added curvy lines to the headers of each section. I added a testimonials section to hear from their happy customers.",
+      "context_img": ["cake_1.png", "cake_2.png"],
+      "url_text": "View on Behance",
+      "url": "https://www.behance.net/gallery/165980643/Cake-Web-Design"
+    },
+    {
+      "title": "Co-working Space App",
+      "desc": "Find your coworking space",
+      "img": "coworking_cover.png",
+      "bg": "#cdf4e9",
+      "context": "As a freelancer I find it hard to find the coworking spaces around me, so I thought of designing an app that shows the coworking spaces around with seamless amenities, fair prices and good hospitality. Users can also view the food options that the place offers. They are provided with reviews of the place and the contacts as well.",
+      "context_img": "coworking.png",
+      "color": "#2B7D6B",
+      "color-sec": "#4EA894"
+    },
+    {
+      "title": "Meat Delivery App",
+      "desc": "Order freshly cut meat",
+      "img": "meat_cover.png",
+      "bg": "#FFBBBB",
+      "color": "#9F1E1E",
+      "color-sec": "#DD4949",
+      "context": "Freshly cut meat has its own juicy taste and flavour. Here I designed a meat delivery app that allows users to order fresh meat and get them delivered at their home. I chose to display the categories at the home page like chicken, mutton, fish, eggs etc. After a user chooses a section then they can try to filter according to the type of pieces they wanted to buy. They can even change the category of the meat as well.",
+      "context_img": "meat_body.png"
+    },
+    {
+      "title": "Furniture App",
+      "desc": "Buy variety of furnitures",
+      "img": "furniture_body.png",
+      "bg": "#DEDFFC",
+      "color": "#4A4FD9",
+      "color-sec": "#7478E2",
+      "context": "Buying furniture for our space is always a time consuming job. Exploring the furniture ecommerce app however eased our jobs of physically looking at so much furniture and trying them out. Choosing a furniture online should be as easy as we choose a dress. I tried to incorporate the important details that we usually look while buying a furniture and designed a card based on that like the type of material, colours, weight, warranty. Future additions can be adding the length and width of the item.",
+      "context_img": "furniture_body.png"
+    },
+    {
+      "title": "Billsplitter App",
+      "desc": "Split your bills easily",
+      "img": "bill_cover.png",
+      "bg": "#FFE8C6",
+      "color": "#CC7A00",
+      "color-sec": "#FF9800",
+      "context": "Before the recent update of splitting bills using upi apps like google pay, people were using a separate bill splitter app for splitting up the bills whenever they go for an outing with their friends or colleagues. Here I have designed a bill splitter app that allows you to upload a physical bill and helps you to split the bill with your friends. It also shows your account balance in case you need to check that. The app shows recent bill splits and your recent contacts with whom you split bills as well.",
+      "context_img": "bill_body.png"
+    },
+
+    {
+      "title": "Ticket Booking App",
+      "desc": "Book tickets at ease",
+      "img": "bus_cover.png",
+      "bg": "#FFC184",
+      "color": "#A85B00",
+      "color-sec": "#DB7700",
+      "context": "People find it difficult to book bus tickets as they usually head to a booking service for buying tickets. Orangebus is the simplest way to book a travel bus for you as you can book one way and round trip buses at your ease. Find trips from hundreds of carriers and search for the cheapest bus tickets.",
+      "context_img": "bus_home.png"
+    },
+    {
+      "title": "UPI Payment App",
+      "desc": "Pay with few taps",
+      "img": "upi_cover.png",
+      "bg": "#D2C6EC",
+      "color": "#582899",
+      "color-sec": "#7033C3",
+      "context": "UPI payment apps are used in our day to day lives. I tried to redesign phonepe app in light mode. I added an account balance for the users to easily know their balance whenever they are about to send money to someone through UPI. And adding a recent transactions section at the home page will help users to effortlessly send money to their most used or recent contacts.",
+      "context_img": "upi_body.png"
+    },
+
+    {
+      "title": "Designer Query App",
+      "desc": "Ask your design queries",
+      "img": "query_cover.png",
+      "bg": "#B7E2FB",
+      "color": "#0D97E8",
+      "color-sec": "#3EB1F4",
+      "context": "As a designer we have a lot of questions about the features, trends, tools etc and we don't have a separate platform to ask these so I chose to design one. Search whatever questions you have and you have it answered already or ask a new one. The user’s home feed is filled with queries and answers according to their selected categories where they can filter as well.",
+      "context_img": "query_body.png"
+    },
+    {
+      "title": "Dog Care App",
+      "desc": "Find dog services at ease",
+      "img": "dog_cover.png",
+      "bg": "#E8C5AD",
+      "color": "#65391C",
+      "color-sec": "#A05A2C",
+      "context": "Dog care app is designed for finding all the services you need for growing and taking care of your dog. It has options to find a doctor, food, medicine, grooming etc. The user is listed with the nearby veterinary so that they can take their dogs if they are ill or injured. To portray the feel of warmth and love, I chose a brown tone for the application.",
+      "context_img": "dog_body.png"
+    },
+    {
+      "title": "Package Tracking App",
+      "desc": "Track all your packages",
+      "img": "parcel_cover.png",
+      "bg": "#E8DDFE",
+      "color": "#6A38C5",
+      "color-sec": "#9A6AFB",
+      "context": "Tracking products is a task in itself. I designed a delivery service app that can be used to track your package either by typing the tracking number or by scanning the QR code. The user is provided with the timeline of the package and the basic details like the seller, delivery partner so that they can know what package is arriving. Recent packages section shows the packages that were delivered over the last month.",
+      "context_img": "parcel_body.png"
+    },
+    {
+      "title": "Opticals Website Redesign",
+      "desc": "Buy opticals",
+      "img": "opticals_cover.png",
+      "portrait": "false",
+      "bg": "#FFDBDB",
+      "color": "#FF3333",
+      "color-sec": "#FF6666",
+      "context": "I wanted to buy a pair of sunglasses so when I browsed through the internet it gave me a huge number of options to choose from. Then I decided to choose lenskart as they have a lot of varieties, offers and try on options as well. It took me a considerable amount of time to go through the content and interactive features that were presented. So I decided to redesign the lenskart’s website in a minimal style intending to keep their offers and varieties in mind.",
+      "context_img": [
+        "optical_1.png",
+        "optical_2.png",
+        "optical_3.png",
+        "optical_4.png"
+      ],
+      "url": "https://www.behance.net/gallery/169923077/Lenskart-Website-Redesign",
+      "url_text": "View on Behance"
+    },
+    {
+      "title": "Meditation App",
+      "desc": "Calm your mind with handpicked podcasts",
+      "img": "meditation_cover.png",
+      "bg": "#DBE5FF",
+      "color": "#0038CC",
+      "color-sec": "#336CFF",
+      "context": "Meditation app has meditation sessions which are used for calming your mind by listening to the handpicked podcasts and to unleash the real you. The app has mind clearing podcasts for every feeling that you have. It also has some quick meditations for you so it can make you feel better. Each user is provided with a special motivational podcast each day and they can continue their podcast from where they left off yesterday as well.",
+      "context_img": "meditation_body.png"
+    },
+    {
+      "title": "Food Recipe App",
+      "desc": "Learn to make tasty recipes",
+      "img": "food_cover.png",
+      "bg": "#E8DDFE",
+      "color": "#4606C6",
+      "color-sec": "#7939F9",
+      "context": "Cooking food is an art that can be learnt by anyone. This app teaches you delicious food recipes that you want to make and share with your loved ones. It has the whole video of the recipe and a description along with the list of ingredients to make the recipe. The user can save the recipe for future use.",
+      "context_img": "food_body.png"
+    }
+  ],
+
+  "case_study": [
+    {
+      "title": "Brilliant Co",
+      "desc": "Find Tutors Near You",
+      "img": "casestudy/brilliant_cover.png",
+      "bg": "#CCDAFF",
+      "color": "#003ACC",
+      "color-sec": "#336DFF",
+      "dribble_url": "kjfdhkjsda",
+      "portrait": "false",
+      "e_data": [
+        {
+          "size": "12/12",
+          "head": "no_head",
+          "col": [
+            {
+              "size": "12",
+              "msg": "<img src='./assets/casestudy/brilliant_head.png' style='width: -webkit-fill-available'/>"
+            }
+          ]
+        },
+        {
+          "size": "full",
+          "head": "Prompt",
+          "msg": "Many parents struggle to find the best tutors for the educational needs of their children. Parents discover tutors by soliciting recommendations from other parents at their children's school. Parents have no clue what topics the tutors are skilled at teaching, or if they are instructors at all."
+        },
+        {
+          "size": "full",
+          "head": "Challenge",
+          "msg": "Design a application to help the users find best and certified tutors around for their children who offer online and offline classes."
+        },
+        {
+          "size": "full",
+          "head": "What Brilliant offers?",
+          "msg": "Brilliant is designed to simplify the process of finding tutors near you. Many parents struggle to find the best tutors for the educational needs of their children.<br><br>To solve this problem I have implemented a simple UI/UX design solution that displays all the certified, top tutors near the users area and the users can request for trial classes from the tutors and then pay the total fee.<br><br>Additionally, I have included a <b>Add notes</b> feature where tutors can add exclusive notes of the lessons they are about to teach in the upcoming classes. Using the <b>Assignment submission</b> feature students can submit their assignments through the application and are notified about the deadline as well.<br>With these features Brilliant is designed to create a hassle free experience for the users to find the top tutors around them."
+        },
+        {
+          "size": "7/5",
+          "head": "Find Tutors Near You",
+          "col": [
+            {
+              "size": "7",
+              "msg": "Brilliant offers a efficient solution for the common problem that the users face like the difficulty in finding tutors for their kids who are the best at their work. This app simplifies the process of finding tutors around the users area and enhances the customer experience.<br><br>With this application, customers can easily search for tutors around their household, eliminating the idea of blindly trusting someone else’s words as users can request for trial classes before deciding to join.<br><br>Additionally add notes and assignment submission feature  creates a hassle free process for the students to refer their notes and submit their assignments. <br><br>This app makes it easy for you to find the best tutors around eliminating the solicitation of recommendations from other parents at their children's school having no clue on what the tutors are really proficient at.<br><br>"
+            },
+            {
+              "size": "5",
+              "img": "casestudy/find_tutors.png"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Target Audience",
+          "col": [
+            {
+              "size": "12",
+              "type": "point",
+              "msg": "People in the age group of 40-55 years as its the general age of the parents having kids ranging from 14-18 years of age."
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "msg": "People with children having lower grades."
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Features",
+          "col": [
+            {
+              "size": "12",
+              "type": "point",
+              "msg": "Add trial class feature to eliminate the blind trust on tutors"
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "msg": "Submit assignment and download notes"
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "msg": "Locate tuitions near users"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Low Fidelity Wireframes",
+          "col": [
+            {
+              "size": "12",
+              "msg": "The idea of the product is to allow the customers to easily search for tutors near their home eliminating the trouble of searching for tutors.<br><br>The goal was to provide customers with an easy method to identify tutors and attend trial lessons so that consumers could decide whether or not to enroll in full-time programs."
+            },
+            {
+              "size": "12",
+              "img": "casestudy/wireframe.png"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Guerrilla Testing",
+          "col": [
+            {
+              "size": "12",
+              "msg": "I conducted a usability test with a group of potential consumers to check the application's functionality and identify issues. This implied monitoring individuals while they engaged with the prototype and collected feedback on their experience. Through this approach, I acquired useful insights that assisted me in identifying areas for development and making essential tweaks to better the user experience."
+            },
+            {
+              "size": "12",
+              "msg": "<h6 class='m-l30'>Key Takeaways</h6><br><span class='m-l30'>Here are some of the key takeaways from our guerrilla user testing sessions.</span>"
+            },
+            {
+              "size": "12",
+              "type": "quote",
+              "msg": "The colour scheme used didn’t make me feel like I am using some kind of an education app.<span class='br'></span>I really liked the idea of showing the story of the tuitions. It gave me the confidence that my kid will succeed like so one day.<span class='br'></span>I loved using the trial class feature as it helped me and my child in deciding which tutor would be the best.<span class='br'></span>It would be helpful to have more information about the tutors for each subjects and the fee.<span class='br'></span>The process of finding nearby tutors was very easy to use."
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "High-Fidelity UI Design",
+          "col": [
+            {
+              "size": "12",
+              "msg": "Once the initial flow was completed and the wireframes were ready, I started creating a couple of main screens for the app. Choosing the typeface and the set of colours were the two most significant tasks. I created a simple UI style guide to maintain consistency.Then I created a typography scale to ensure that hierarchy is preserved throughout the project."
+            },
+            {
+              "size": "4",
+              "msg": "<b>Colors</b><br /><span style='font-weight: 300'>Primary</span><div class='color-circle-wrapper d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #5d8bff'></span><span class='color-circle'        style='--colr: #BEBEBE'></span><span class='color-circle' style='--colr: #FFFFFF'></span></div><span style='font-weight: 300'class='m-l30'>Secondary</span><br /><div class='color-circle-wrapper2 d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #BB3535'></span><span class='color-circle'        style='--colr: #50BB35'></span><span class='color-circle' style='--colr: #FEBF2C'></span><span        class='color-circle' style='--colr: #D9D9D9'></span><span class='color-circle'        style='--colr: #A9A9A9'></span><span class='color-circle' style='--colr: #949494'></span><span        class='color-circle' style='--colr: #232323'></span></div>"
+            },
+            {
+              "size": "4",
+              "msg": "<b>Typeface</b><br /><span style='font-weight: 300'>Open Sans</span><br /><span style='font-weight: 300'>Bold, Regular</span><br /><span style='font-size:20px'><b>Aa</b> Aa</span><br />"
+            },
+            {
+              "size": "4",
+              "msg": "<b>Build trust</b><br/><span>With the insightful journey videos of the tuitions, users eventually gained trust on the classes.</span>"
+            },
+            {
+              "size": "12",
+              "img": "casestudy/highfidelity_uidesign.png"
+            }
+          ]
+        },
+        {
+          "size": "full",
+          "head": "Design Iteration",
+          "msg": "During the iterative design process, I received feedback from users that the colour scheme used didn’t make them feel like they were using an education app. I decided to experiment with different colours which could make the users feel reliable. I also adjusted the typography to ensure that it was clear and easy to read.<br/><br/>Another area I iteratively improved upon was the choice of icons used in the app. I initially used a clumsy course icon for the courses page on the menu bar which made some users take extra time to figure out what the actual icon was. I then designed a simple book icon which helped users quickly understand the functionality of the app.<br/><br/>In addition to these changes, I iteratively refined other design elements such as the layout of the tuition page where the tutors name and image was displayed. Further addition of a video which portrays success story of the institution helped build trust with the customers.<br/><br/>Each iteration was made by user feedback, with the goal of making the app more user-friendly, visually appealing, and effective at helping users choose the best tutors easily.<br/><br/>By using an iterative design process, I was able to make incremental improvements to the app over time, leading to a final design that effectively met the needs and preferences of our users.",
+          "col": [
+            {
+              "size": "12",
+              "msg": "<video style='width:500px;height:500px' loop src='./assets/animation/before-after.mov' muted playsinline autoplay></video>"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Prototype",
+          "col": [
+            {
+              "size": "12",
+              "msg": "Here is the <a href='https://www.figma.com/file/WrkfbclFzr2sCtKyiyz1vw/brilliant-revamp?type=design&node-id=162%3A5574&mode=design&t=aBYrc2jIWMMvfJMg-1'><b>prototype</b></a> of brilliant.<br></br><video style='width:500px;height:500px' loop src='./assets/casestudy/brilliant_prototype.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Project Summary",
+          "col": [
+            {
+              "size": "12",
+              "msg": "During the project, I did user research, create a set of low fidelity wireframes and build them into high fidelity wireframes, connected them into a prototype and performed a mini usability study by testing them with few users. It was a challenging task and I had a very insightful journey. I learned a lot throughout the process but there is a lot of room for improvement and additional features."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "motion_design": [
+    {
+      "title": "Shopping App",
+      "desc": "Delete item from bag",
+      "img": "shopping_body.png",
+      "video_url": "animation/ecommerce_app.mov",
+      "bg": "#FEE2F0",
+      "color": "#9E0B49",
+      "context": "We all use shopping apps on a daily basis and deleting items from cart is a repetitive action that we as users perform. Here I have created a animation that can be used to easily delete items from cart by using swipe action.",
+      "color-sec": "#F35397"
+    },
+    {
+      "title": "Matrimony App",
+      "desc": "Swipe Interaction Animation",
+      "img": "matrimony_cover.png",
+      "video_url": "animation/matrimony_app_short.mov",
+      "bg": "#FFCCD5",
+      "color": "#A8001E",
+      "context": "We all use shopping apps on a daily basis and deleting items from cart is a repetitive action that we as users perform. Here I have created a animation that can be used to easily delete items from cart by using swipe action.",
+      "color-sec": "#FF4768"
+    },
+    {
+      "title": "Toggle Button",
+      "desc": "Light and dark mode",
+      "img": "toggle.png",
+      "context_img": "animation/toggle_button.gif",
+      "bg": "#CBE7FF",
+      "color": "#0089FF",
+      "context": "We all use shopping apps on a daily basis and deleting items from cart is a repetitive action that we as users perform. Here I have created a animation that can be used to easily delete items from cart by using swipe action.",
+      "color-sec": "#005BA8"
+    }
+  ],
+
+  "blogs": [
+    {
+      "title": "Micro-Interaction Button",
+      "desc": "Adopt pets animation",
+      "img": "cat.png",
+      "bg": "#FFC5E1",
+      "context": "A micro-interaction is an essential way of  engaging people by providing them with  interesting feedback on the activity that  they accomplished. I have written a blog on the process of making the micro-interaction of adopt me button. By making some simple additions will make this static illustration alive. Tweaking the values of custom spring mode using smart  animate feature.A micro-interaction is an essential way of  engaging people by providing them with  interesting feedback on the activity that  they accomplished.",
+      "color": "#941452",
+      "color-sec": "#E95EA1",
+      "context_img": "animation/cat_animation.gif",
+      "url_text": "Read On Medium",
+      "url": "https://medium.com/design-bootcamp/how-i-animated-a-micro-interaction-on-figma-9c0d7a53530"
+    }
+  ]
+}

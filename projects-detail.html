@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nadhira Ishrath</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <style>
+        :root {
+            --color-primary: #13151b;
+        }
+
+        .card {
+            min-height: 100px !important;
+        }
+
+        b {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <img class="bg" src="./assets/bg.svg" /> -->
+
+    <!-- Navbar -->
+    <div id="navbar" class="sidebar d-flex flex-column  justify-content-center flex-shrink-0 " data-aos="fade-right"
+        style="transition-duration: 1s !important;">
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a href="./" id="home-btn" class="nav-link  py-3 d-flex" aria-current="page" title
+                    data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                    <img class="home"></img>
+                </a>
+                <div class="pop" id="pop-home">Home</div>
+            </li>
+            <li>
+                <a href="./#projects" id="projects-btn" class="nav-link py-3" title data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-original-title="Projects">
+                    <img class="projects"></img>
+                <div class="pop" id="pop-projects">Projects</div>
+                </a>
+            </li>
+            <li>
+                <a href="./#blogs" id="blogs-btn" class="nav-link py-3 " title data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-original-title="Blogs">
+                    <img class="blog"></img>
+                    <div class="pop" id="pop-blogs">Blogs</div>
+                </a>
+            </li>
+            <li>
+                <a href="./#contact" id="contact-btn" class="nav-link py-3 " title data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-original-title="Contact">
+                    <img class="contact"></img>
+                </a>
+                <div class="pop" id="pop-contact">Contact</div>
+            </li>
+
+        </ul>
+
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a id="behance-btn" class="nav-link py-3 d-flex" aria-current="page" title data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-original-title="Behance">
+                    <img class="behance"></img>
+                </a>
+                <div class="pop" id="pop-behance">Behance</div>
+            </li>
+            <li>
+                <a id="dribble-btn" class="nav-link py-3" title data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-original-title="Dribble">
+                    <img class="dribble"></img>
+                </a>
+                <div class="pop" id="pop-dribble">Dribble</div>
+            </li>
+
+        </ul>
+
+    </div>
+    <!-- Navbar end-->
+    <main>
+
+        <!-- Projects -->
+
+        <div id="projects-detail" class="section d-flex flex-column active-section " data-aos="fade-up">
+            <div class="d-flex">
+                <a onclick="back()" class="nav-link active py-3 d-flex back-btn" style="background: #fff !important">
+                    <img class="back-arrow" style="filter: invert(0);width: 20px;height: 20px;"></img>
+                </a>
+                <h1 id="title"> Projects</h1>
+            </div> <br />
+
+            <div class="container">
+                <div class="row ">
+
+                    <div class="col-lg-12 ">
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6 ">
+                        <div class="card" style="background: rgb(206, 206, 255);">
+
+                            <div class="d-flex align-items-center">
+                                <div class="bar">
+                                </div>
+                                <h5 class="card-title">Context</h5>
+
+                            </div>
+                            <p class="card-text" id="context-desc">
+                                Billsplitter app is used to split bills amongsta group of people. The recent bill
+                                splits are
+                                displayed for you to pay easily within the
+                                app. The idea is to sync your bank account
+                                balance with the app that allows you to pay
+                                and split bills with your friends.
+                            </p>
+
+                            <div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+
+                        <div class="card" style="background: rgb(206, 206, 255);">
+
+
+                            <div class="card-body">
+                                <!-- <img class="" src="./assets/bill_detail.png" /> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br><br>
+
+        <!-- Projects end-->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="script2.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>

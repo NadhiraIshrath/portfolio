@@ -352,8 +352,8 @@
       "context_img": "animation/toggle_button.gif",
       "bg": "#CBE7FF",
       "color": "#0089FF",
-      "context": "We all use shopping apps on a daily basis and deleting items from cart is a repetitive action that we as users perform. Here I have created a animation that can be used to easily delete items from cart by using swipe action.",
-      "color-sec": "#005BA8"
+      "context": "Toggle button is used to display the in and off state on a button. Here I have tried to create a toggle animation for light and dark mode. Personally I have always been a fan of dark mode as they are subtle on the eyes for me rather than being very much bright and heavy on my eyes.",
+     "color-sec": "#005BA8"
     }
   ],
 

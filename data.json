@@ -342,9 +342,8 @@
       "img": "matrimony_cover.png",
       "video_url": "animation/matrimony_app_short.mov",
       "bg": "#FFCCD5",
-      "color": "#A8001E",
-      "context": "We all use shopping apps on a daily basis and deleting items from cart is a repetitive action that we as users perform. Here I have created a animation that can be used to easily delete items from cart by using swipe action.",
-      "color-sec": "#FF4768"
+      "color": "#A8001E",  "context": "Matrimony apps are used by people on a daily basis for finding their life partners. The users are provided with daily matches on the feed in most of the matrimony apps. They are usually in the hassle of choosing their perfect match and they sometimes get bored going through the personal information of a person and deciding whether they like the profile or not. So I thought of adding a left-right swipe animation to increase the user’s engagement on the screen while deciding whether they like the profile or not.",
+    "color-sec": "#FF4768"
     },
     {
       "title": "Toggle Button",

@@ -327,6 +327,16 @@
   ],
   "motion_design": [
     {
+      "title": "Cake Ordering App",
+      "desc": "Order Quantity Interaction",
+      "img": "cake_size.png",
+      "video_url": "animation/cake_size.mov",
+      "bg": "#F5A1A1",
+      "color": "#EB4747",
+      "context": "There is always this decision users make when ordering a cake. You guessed it right, the weight/size of the cake! Users usually double check or find it hard to read through the text on whether they have ordered the right size of the cake. Hence, I tried to give it a shot by creating a prototype for choosing the size of the cake and added some visual interaction to increase user engagement and ease their experience.",
+      "color-sec": "#EE5E5E"
+    },
+    {
       "title": "Shopping App",
       "desc": "Delete item from bag",
       "img": "shopping_body.png",
@@ -342,7 +352,8 @@
       "img": "matrimony_cover.png",
       "video_url": "animation/matrimony_app_short.mov",
       "bg": "#FFCCD5",
-      "color": "#A8001E",  "context": "Matrimony apps are used by people on a daily basis for finding their life partners. The users are provided with daily matches on the feed in most of the matrimony apps. They are usually in the hassle of choosing their perfect match and they sometimes get bored going through the personal information of a person and deciding whether they like the profile or not. So I thought of adding a left-right swipe animation to increase the user’s engagement on the screen while deciding whether they like the profile or not.",
+      "color": "#A8001E", 
+      "context": "Matrimony apps are used by people on a daily basis for finding their life partners. The users are provided with daily matches on the feed in most of the matrimony apps. They are usually in the hassle of choosing their perfect match and they sometimes get bored going through the personal information of a person and deciding whether they like the profile or not. So I thought of adding a left-right swipe animation to increase the user’s engagement on the screen while deciding whether they like the profile or not.",
     "color-sec": "#FF4768"
     },
     {

@@ -336,16 +336,7 @@
       "context": "There is always this decision users make when ordering a cake. You guessed it right, the weight/size of the cake! Users usually double check or find it hard to read through the text on whether they have ordered the right size of the cake. Hence, I tried to give it a shot by creating a prototype for choosing the size of the cake and added some visual interaction to increase user engagement and ease their experience.",
       "color-sec": "#E13737"
     },
-    {
-      "title": "Curved Carousel Interaction",
-      "desc": "Image gallery carousel",
-      "img": "interior.png",
-      "video_url": "animation/interior.mov",
-      "bg": "#65A87C",
-      "color": "#38744D",
-      "context": "Interior decoration websites have the need to display the design work they have done for their clients and an image carousel makes a website more interactive by enhancing the user experience. Carousels are inspired from the good old merry-go-round so I tried to make a curved carousel here.",
-      "color-sec": "#479462"
-    },
+    
     {
       "title": "Shopping App",
       "desc": "Delete item from bag",
@@ -375,7 +366,17 @@
       "color": "#0089FF",
       "context": "Toggle button is used to display the in and off state on a button. Here I have tried to create a toggle animation for light and dark mode. Personally I have always been a fan of dark mode as they are subtle on the eyes for me rather than being very much bright and heavy on my eyes.",
      "color-sec": "#005BA8"
-    }
+    },
+    {
+      "title": "Curved Carousel Interaction",
+      "desc": "Image gallery carousel",
+      "img": "interior.png",
+      "video_url": "animation/interior.mov",
+      "bg": "#65A87C",
+      "color": "#2E6040",
+      "context": "Interior decoration websites have the need to display the design work they have done for their clients and an image carousel makes a website more interactive by enhancing the user experience. Carousels are inspired from the good old merry-go-round so I tried to make a curved carousel here.",
+      "color-sec": "#3A7850"
+    },
   ],
 
   "blogs": [

@@ -337,6 +337,16 @@
       "color-sec": "#E13737"
     },
     {
+      "title": "Curved Carousel Interaction",
+      "desc": "Image gallery carousel",
+      "img": "interior.png",
+      "video_url": "animation/interior.mov",
+      "bg": "#65A87C",
+      "color": "#38744D",
+      "context": "Interior decoration websites have the need to display the design work they have done for their clients and an image carousel makes a website more interactive by enhancing the user experience. Carousels are inspired from the good old merry-go-round so I tried to make a curved carousel here.",
+      "color-sec": "#479462"
+    },
+    {
       "title": "Shopping App",
       "desc": "Delete item from bag",
       "img": "shopping_body.png",

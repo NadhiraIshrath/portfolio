@@ -371,6 +371,7 @@
       "title": "Curved Carousel Interaction",
       "desc": "Image gallery carousel",
       "img": "interior.png",
+      "portrait": "false",
       "video_url": "animation/interior.mov",
       "bg": "#65A87C",
       "color": "#2E6040",

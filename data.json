@@ -329,12 +329,12 @@
     {
       "title": "Cake Ordering App",
       "desc": "Order Quantity Interaction",
-      "img": "cake_size.png",
+      "img": "cake_size_1.png",
       "video_url": "animation/cake_size.mov",
       "bg": "#F5A1A1",
-      "color": "#EB4747",
+      "color": "#BF1C1C",
       "context": "There is always this decision users make when ordering a cake. You guessed it right, the weight/size of the cake! Users usually double check or find it hard to read through the text on whether they have ordered the right size of the cake. Hence, I tried to give it a shot by creating a prototype for choosing the size of the cake and added some visual interaction to increase user engagement and ease their experience.",
-      "color-sec": "#EE5E5E"
+      "color-sec": "#E13737"
     },
     {
       "title": "Shopping App",

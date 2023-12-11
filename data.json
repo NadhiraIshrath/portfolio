@@ -19,10 +19,10 @@
     {
       "title": "Co-working Space App",
       "desc": "Find your coworking space",
-      "img": "coworking_cover.png",
+      "img": "coworking_1.png",
       "bg": "#cdf4e9",
       "context": "As a freelancer I find it hard to find the coworking spaces around me, so I thought of designing an app that shows the coworking spaces around with seamless amenities, fair prices and good hospitality. Users can also view the food options that the place offers. They are provided with reviews of the place and the contacts as well.",
-      "context_img": "coworking_1.png",
+      "context_img": "coworking.png",
       "color": "#2B7D6B",
       "color-sec": "#4EA894"
     },

@@ -9,7 +9,10 @@
       "color": "#8B1D47",
       "color-sec": "#B5265C",
       "context": "A client approached me to design a website for their cake startup that they had launched recently. They make homemade cakes that look very exotic and taste yummy as well. I wanted to add that happy and creamy feeling when we look at a cake and the decor we see on top of the cake through the website. So I made flowy designs and added curvy lines to the headers of each section. I added a testimonials section to hear from their happy customers.",
-      "context_img": ["cake_1.png", "cake_2.png"],
+      "context_img": [
+        "cake_1.png",
+        "cake_2.png"
+      ],
       "url_text": "View on Behance",
       "url": "https://www.behance.net/gallery/165980643/Cake-Web-Design"
     },
@@ -19,7 +22,7 @@
       "img": "coworking_cover.png",
       "bg": "#cdf4e9",
       "context": "As a freelancer I find it hard to find the coworking spaces around me, so I thought of designing an app that shows the coworking spaces around with seamless amenities, fair prices and good hospitality. Users can also view the food options that the place offers. They are provided with reviews of the place and the contacts as well.",
-      "context_img": "coworking.png",
+      "context_img": "coworking_1.png",
       "color": "#2B7D6B",
       "color-sec": "#4EA894"
     },
@@ -53,7 +56,6 @@
       "context": "Before the recent update of splitting bills using upi apps like google pay, people were using a separate bill splitter app for splitting up the bills whenever they go for an outing with their friends or colleagues. Here I have designed a bill splitter app that allows you to upload a physical bill and helps you to split the bill with your friends. It also shows your account balance in case you need to check that. The app shows recent bill splits and your recent contacts with whom you split bills as well.",
       "context_img": "bill_body.png"
     },
-
     {
       "title": "Ticket Booking App",
       "desc": "Book tickets at ease",
@@ -74,7 +76,6 @@
       "context": "UPI payment apps are used in our day to day lives. I tried to redesign phonepe app in light mode. I added an account balance for the users to easily know their balance whenever they are about to send money to someone through UPI. And adding a recent transactions section at the home page will help users to effortlessly send money to their most used or recent contacts.",
       "context_img": "upi_body.png"
     },
-
     {
       "title": "Designer Query App",
       "desc": "Ask your design queries",
@@ -144,7 +145,6 @@
       "context_img": "food_body.png"
     }
   ],
-
   "case_study": [
     {
       "title": "Brilliant Co",
@@ -336,7 +336,6 @@
       "context": "There is always this decision users make when ordering a cake. You guessed it right, the weight/size of the cake! Users usually double check or find it hard to read through the text on whether they have ordered the right size of the cake. Hence, I tried to give it a shot by creating a prototype for choosing the size of the cake and added some visual interaction to increase user engagement and ease their experience.",
       "color-sec": "#E13737"
     },
-    
     {
       "title": "Shopping App",
       "desc": "Delete item from bag",
@@ -353,9 +352,9 @@
       "img": "matrimony_cover.png",
       "video_url": "animation/matrimony_app_short.mov",
       "bg": "#FFCCD5",
-      "color": "#A8001E", 
+      "color": "#A8001E",
       "context": "Matrimony apps are used by people on a daily basis for finding their life partners. The users are provided with daily matches on the feed in most of the matrimony apps. They are usually in the hassle of choosing their perfect match and they sometimes get bored going through the personal information of a person and deciding whether they like the profile or not. So I thought of adding a left-right swipe animation to increase the user’s engagement on the screen while deciding whether they like the profile or not.",
-    "color-sec": "#FF4768"
+      "color-sec": "#FF4768"
     },
     {
       "title": "Curved Carousel Interaction",
@@ -376,11 +375,9 @@
       "bg": "#CBE7FF",
       "color": "#0089FF",
       "context": "Toggle button is used to display the in and off state on a button. Here I have tried to create a toggle animation for light and dark mode. Personally I have always been a fan of dark mode as they are subtle on the eyes for me rather than being very much bright and heavy on my eyes.",
-     "color-sec": "#005BA8"
+      "color-sec": "#005BA8"
     }
-    
   ],
-
   "blogs": [
     {
       "title": "Micro-Interaction Button",

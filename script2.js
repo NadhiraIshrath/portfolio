@@ -3,9 +3,9 @@ function init() {
   window.onpopstate = function (event) {
     console.log(
       "location: " +
-        document.location +
-        ", state: " +
-        JSON.stringify(event.state)
+      document.location +
+      ", state: " +
+      JSON.stringify(event.state)
     );
     // get_query(document.location.href);
     // check_hash();
@@ -133,95 +133,176 @@ function back() {
 
 function explore_click(ID) {
   var id_key = ID;
-  console.log(ID);
+  console.log('key_id', ID);
   console.log(ID[0]);
   console.log(ID[1]);
 
-  if (id_key[1] != "case_study") {
+  // if (id_key[1] != "case_study" && id_key[1] != "motion_design" && id_key[1] != "visual_design") {
+  if (id_key[1] != "case_study_") {
     console.log(primaryData[id_key[1]]);
 
-    $("#projects-detail .container .row .col-lg-6").addClass("active");
-    // $("#projects-detail .container .row .col-lg-7").addClass("active");
+    // $("#projects-detail .container .row .col-lg-6").addClass("active"); //hidden now
+    // // $("#projects-detail .container .row .col-lg-7").addClass("active");
 
     primaryData[id_key[1]].map((data) => {
+
+
+
       if (data.title == id_key[0]) {
-        $("#projects-detail #title").text(data.title);
-        $("#projects-detail #context-desc").text(data.context);
+        if (!data.hasOwnProperty('e_data')) {
+          $("#projects-detail .container .row .col-lg-6").addClass("active"); //added now
 
-        $("#projects-detail .bar").css("background", data.color);
+          $("#projects-detail #title").text(data.title);
+          $("#projects-detail #context-desc").text(data.context);
 
-        if (data["context_img"]) {
-          if (Array.isArray(data["context_img"])) {
-            var html_slide = `<div class="slide-container">`;
-            data["context_img"].forEach((_img, index) => {
-              console.log(_img);
-              html_slide +=
-                `<div class="slide fader" style="` +
-                (index == 0 ? `display:block` : `display:none`) +
-                `"><img class="context-img" src="./assets/` +
-                _img +
-                `" /></div>`;
-            });
-            html_slide += `</div>`;
+          $("#projects-detail .bar").css("background", data.color);
 
-            $(
-              "#projects-detail .container .row > div:last-child .card .card-body"
-            ).html(html_slide);
+          if (data["context_img"]) {
+            if (Array.isArray(data["context_img"])) {
+              var html_slide = `<div class="slide-container">`;
+              data["context_img"].forEach((_img, index) => {
+                console.log(_img);
+                html_slide +=
+                  `<div class="slide fader" style="` +
+                  (index == 0 ? `display:block` : `display:none`) +
+                  `"><img class="context-img" src="./assets/` +
+                  _img +
+                  `" /></div>`;
+              });
+              html_slide += `</div>`;
 
-            var html_dot = `<div class="dots-container">`;
-            for (let index = 0; index < data["context_img"].length; index++) {
-              html_dot +=
-                `<span class="dot ` +
-                (index == 0 ? `active` : ``) +
-                `"style="--collr:` +
-                data["color-sec"] +
-                `"></span>`;
+              $(
+                "#projects-detail .container .row > div:last-child .card .card-body"
+              ).html(html_slide);
+
+              var html_dot = `<div class="dots-container">`;
+              for (let index = 0; index < data["context_img"].length; index++) {
+                html_dot +=
+                  `<span class="dot ` +
+                  (index == 0 ? `active` : ``) +
+                  `"style="--collr:` +
+                  data["color-sec"] +
+                  `"></span>`;
+              }
+              html_dot += ` </div>`;
+              $(
+                "#projects-detail .container .row > div:last-child .card .card-body"
+              ).append(html_dot);
+            } else {
+              $(
+                "#projects-detail .container .row > div:last-child .card .card-body"
+              ).html(
+                `<img class="context-img" src="./assets/` +
+                data.context_img +
+                `" />`
+              );
             }
-            html_dot += ` </div>`;
-            $(
-              "#projects-detail .container .row > div:last-child .card .card-body"
-            ).append(html_dot);
-          } else {
+          }
+
+          if (data["video_url"]) {
             $(
               "#projects-detail .container .row > div:last-child .card .card-body"
             ).html(
-              `<img class="context-img" src="./assets/` +
-                data.context_img +
-                `" />`
-            );
-          }
-        }
-
-        if (data["video_url"]) {
-          $(
-            "#projects-detail .container .row > div:last-child .card .card-body"
-          ).html(
-            `<video loop src="./assets/` +
+              `<video loop src="./assets/` +
               data["video_url"] +
               `" muted playsinline autoplay >
           </video>`
-          );
-        }
+            );
+          }
 
-        if (data["url_text"]) {
-          $(
-            "#projects-detail .container .row > div:first-child .card div:last-child"
-          ).html(
-            `<a href="` +
+          if (data["url_text"]) {
+            $(
+              "#projects-detail .container .row > div:first-child .card div:last-child"
+            ).html(
+              `<a href="` +
               data["url"] +
               `" class="nav-link active py-3 d-flex view-btn align-items-center">
              ` +
               data["url_text"] +
               `
               </a>`
-          );
-        } else {
-          $(
-            "#projects-detail .container .row > div:first-child .card  div:last-child"
-          ).html(``);
-        }
+            );
+          } else {
+            $(
+              "#projects-detail .container .row > div:first-child .card  div:last-child"
+            ).html(``);
+          }
 
-        return;
+          return;
+        } else {
+
+          $("#projects-detail .container .row .col-lg-12").addClass("active");
+          $("#projects-detail #title").text(data.title);
+          $("#projects-detail #context-desc").text(data.context);
+
+          data.e_data.map((d) => {
+            console.log(d);
+
+            var header = d.head
+              ? `<h5 class="card-title">` + d.head + `</h5>`
+              : ``;
+            var msg = d.msg
+              ? ` <p class="card-text" id="context-desc">` + d.msg + `</p>`
+              : ``;
+            var img = d.img
+              ? ` <img class="context-img" src="./assets/` + data.img + `" />`
+              : ``;
+
+            if (d["col"]) {
+              var col = split_col(d["col"]); //getColunm
+            }
+
+            var html =
+              `<div class="container"><div class="card" style="background: rgb(206, 206, 255);">
+
+                         ` +
+              (d["head"] != "no_head"
+                ? `<div class="d-flex align-items-center ` +
+                d["head"] +
+                `">
+                                <div class="bar">
+                                </div>` +
+                header +
+                `</div>`
+                : ``) +
+              msg +
+              `` +
+              (col != null ? col : ``) +
+              `` +
+              `</div></div>`;
+
+            // $("#projects-detail .container .row .col-lg-12").append(html);
+            $("#projects-detail").append(html);
+          });
+
+          $("#projects-detail .bar").css("background", data.color);
+          if (data["context_img"]) {
+            $(
+              "#projects-detail .container .row > div:last-child .card .card-body"
+            ).html(`<img class="" src="./assets/` + data.context_img + `" />`);
+          }
+
+          if (data["url_text"]) {
+            $(
+              "#projects-detail .container .row > div:first-child .card div:last-child"
+            ).html(
+              `<a href="` +
+              data["url"] +
+              `" class="nav-link active py-3 d-flex view-btn align-items-center">
+             ` +
+              data["url_text"] +
+              `
+              </a>`
+            );
+          } else {
+            $(
+              "#projects-detail .container .row > div:first-child .card  div:last-child"
+            ).html(``);
+          }
+
+          return;
+
+        }
       }
     });
 
@@ -257,12 +338,12 @@ function explore_click(ID) {
                          ` +
             (d["head"] != "no_head"
               ? `<div class="d-flex align-items-center ` +
-                d["head"] +
-                `">
+              d["head"] +
+              `">
                                 <div class="bar">
                                 </div>` +
-                header +
-                `</div>`
+              header +
+              `</div>`
               : ``) +
             msg +
             `` +
@@ -286,11 +367,11 @@ function explore_click(ID) {
             "#projects-detail .container .row > div:first-child .card div:last-child"
           ).html(
             `<a href="` +
-              data["url"] +
-              `" class="nav-link active py-3 d-flex view-btn align-items-center">
+            data["url"] +
+            `" class="nav-link active py-3 d-flex view-btn align-items-center">
              ` +
-              data["url_text"] +
-              `
+            data["url_text"] +
+            `
               </a>`
           );
         } else {

@@ -21,10 +21,25 @@
       "desc": "Find your coworking space",
       "img": "coworking_1.png",
       "bg": "#cdf4e9",
-      "context": "As a freelancer I find it hard to find the coworking spaces around me, so I thought of designing an app that shows the coworking spaces around with seamless amenities, fair prices and good hospitality. Users can also view the food options that the place offers. They are provided with reviews of the place and the contacts as well.",
       "context_img": "coworking_body.png",
       "color": "#2B7D6B",
-      "color-sec": "#4EA894"
+      "color-sec": "#4EA894",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "To design an app for freelancers to find coworking space that focuses on booking them easily without having to search on the internet for reviews, facilities available, cost etc.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I wanted the UI to look minimalistic and appealing so showing a list of cards with photo, price, rating and location of the space. On top of that people like to work in indoors or outdoors so adding a category filter would be useful for the users. I designed another screen that shows the images of the space, the facilities they offer, menu, contact details and the review of the space which enables the users to book them easily.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/coworking_body.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Meat Delivery App",
@@ -33,8 +48,22 @@
       "bg": "#FFBBBB",
       "color": "#9F1E1E",
       "color-sec": "#DD4949",
-      "context": "Freshly cut meat has its own juicy taste and flavour. Here I designed a meat delivery app that allows users to order fresh meat and get them delivered at their home. I chose to display the categories at the home page like chicken, mutton, fish, eggs etc. After a user chooses a section then they can try to filter according to the type of pieces they wanted to buy. They can even change the category of the meat as well.",
-      "context_img": "meat_body.png"
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "To design a minimal UI for a meat delivery app as the users are provided with a lot of options to choose from in the landing page. Another common issue users face it that they cannot easily change the category of the product they need to buy.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>Here I designed a meat delivery app that allows users to order fresh meat and get them delivered at their home. I chose to display the categories at the home page like chicken, mutton, fish, eggs etc so that it will be easy for users to narrow down based on what they actually want to buy. After a user chooses a section then they can try to filter according to the type. They can even change the category of the meat by choosing the dropdown next to the category of meat displayed.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/meat_body.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Furniture App",
@@ -43,8 +72,23 @@
       "bg": "#DEDFFC",
       "color": "#4A4FD9",
       "color-sec": "#7478E2",
-      "context": "Buying furniture for our space is always a time consuming job. Exploring the furniture ecommerce app however eased our jobs of physically looking at so much furniture and trying them out. Choosing a furniture online should be as easy as we choose a dress. I tried to incorporate the important details that we usually look while buying a furniture and designed a card based on that like the type of material, colours, weight, warranty. Future additions can be adding the length and width of the item.",
-      "context_img": "furniture_body.png"
+      "context_img": "furniture_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "Buying furniture for our space is always a time consuming job. Exploring the furniture and filtering it out according to our needs is something that we all as users do.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I tried to incorporate the important details that we usually look while buying a furniture and designed a card based on that like the furniture type, brand name, rating, price and available colours. Then on viewing a specific product, I added the description, other details such as weight, material type, warranty etc along with the other required information. Future additions can be adding a 3D view option to virtually view the furniture in your own space.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/furniture_body.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Billsplitter App",
@@ -53,8 +97,73 @@
       "bg": "#FFE8C6",
       "color": "#CC7A00",
       "color-sec": "#FF9800",
-      "context": "Before the recent update of splitting bills using upi apps like google pay, people were using a separate bill splitter app for splitting up the bills whenever they go for an outing with their friends or colleagues. Here I have designed a bill splitter app that allows you to upload a physical bill and helps you to split the bill with your friends. It also shows your account balance in case you need to check that. The app shows recent bill splits and your recent contacts with whom you split bills as well.",
-      "context_img": "bill_body.png"
+      "context_img": "bill_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "Before the recent update of splitting bills using upi apps like google pay, people were using a separate bill splitter app for splitting up the bills whenever they go for an outing with their friends or colleagues.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>Here I have designed a bill splitter app that allows you to upload a physical bill and helps you to split the bill with your friends. It also shows your account balance in case you need to check that before sending money from that account. The app shows recent bill splits and contacts with whom the user split the bills so that the user don't have to spend time every time he/she is about to create a bill split.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/bill_body.png'/>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Designer Query App",
+      "desc": "Ask your design queries",
+      "img": "query_cover.png",
+      "bg": "#B7E2FB",
+      "color": "#0D97E8",
+      "color-sec": "#3EB1F4",
+      "context_img": "query_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "As a designer we have a lot of questions about the features, trends, tools etc and we don't have a separate platform to ask these.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>The user’s home feed is pre-filled with queries and answers according to their selected categories which can be shared as well. The user can search whatever they want using the search bar at the top to get clarified of their doubts and they can ask questions for which they will get notified when someone replies to the question.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/query_body.png'/>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "UPI Payment App",
+      "desc": "Pay with few taps",
+      "img": "upi_cover.png",
+      "bg": "#D2C6EC",
+      "color": "#582899",
+      "color-sec": "#7033C3",
+      "context_img": "upi_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "UPI payment apps are used in our day to day lives. I tried to redesign phonepe app in light mode. Two major issues I found in phonepe was not showing the account balance to the users for reasons of privacy and not displaying the recently used contacts to send money.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I added an account balance card for the users to easily know their balance whenever they are about to send money to someone through UPI. And adding a recent transactions section at the home page will help users to effortlessly send money to their most used or recent contacts.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/upi_body.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Ticket Booking App",
@@ -64,27 +173,23 @@
       "color": "#A85B00",
       "color-sec": "#DB7700",
       "context": "People find it difficult to book bus tickets as they usually head to a booking service for buying tickets. Orangebus is the simplest way to book a travel bus for you as you can book one way and round trip buses at your ease. Find trips from hundreds of carriers and search for the cheapest bus tickets.",
-      "context_img": "bus_home.png"
-    },
-    {
-      "title": "UPI Payment App",
-      "desc": "Pay with few taps",
-      "img": "upi_cover.png",
-      "bg": "#D2C6EC",
-      "color": "#582899",
-      "color-sec": "#7033C3",
-      "context": "UPI payment apps are used in our day to day lives. I tried to redesign phonepe app in light mode. I added an account balance for the users to easily know their balance whenever they are about to send money to someone through UPI. And adding a recent transactions section at the home page will help users to effortlessly send money to their most used or recent contacts.",
-      "context_img": "upi_body.png"
-    },
-    {
-      "title": "Designer Query App",
-      "desc": "Ask your design queries",
-      "img": "query_cover.png",
-      "bg": "#B7E2FB",
-      "color": "#0D97E8",
-      "color-sec": "#3EB1F4",
-      "context": "As a designer we have a lot of questions about the features, trends, tools etc and we don't have a separate platform to ask these so I chose to design one. Search whatever questions you have and you have it answered already or ask a new one. The user’s home feed is filled with queries and answers according to their selected categories where they can filter as well.",
-      "context_img": "query_body.png"
+      "context_img": "bus_home.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "People find it difficult to book bus tickets as they usually head to a booking service for buying tickets.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>Orangebus is the simplest way to book a travel bus for you as you can book one way and round trip buses at your ease. The user can find trips from hundreds of carriers and search for the cheapest bus tickets and also the recent bookings of the user to rebook with few clicks.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/bus_home.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Dog Care App",
@@ -93,8 +198,23 @@
       "bg": "#E8C5AD",
       "color": "#65391C",
       "color-sec": "#A05A2C",
-      "context": "Dog care app is designed for finding all the services you need for growing and taking care of your dog. It has options to find a doctor, food, medicine, grooming etc. The user is listed with the nearby veterinary so that they can take their dogs if they are ill or injured. To portray the feel of warmth and love, I chose a brown tone for the application.",
-      "context_img": "dog_body.png"
+      "context_img": "dog_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "To design a dog care app for the users to find best services for their dogs like doctor, food, grooming etc.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>To portray the feel of warmth and love, I chose a brown tone for the application. Dog care app is designed for finding all the services you need for growing and taking care of your dog. The user is listed with the nearby veterinary so that they can take their dogs if they are ill or injured.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/dog_body.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Package Tracking App",
@@ -103,8 +223,23 @@
       "bg": "#E8DDFE",
       "color": "#6A38C5",
       "color-sec": "#9A6AFB",
-      "context": "Tracking products is a task in itself. I designed a delivery service app that can be used to track your package either by typing the tracking number or by scanning the QR code. The user is provided with the timeline of the package and the basic details like the seller, delivery partner so that they can know what package is arriving. Recent packages section shows the packages that were delivered over the last month.",
-      "context_img": "parcel_body.png"
+      "context_img": "parcel_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "To design a package tracking app for users to track their packages that are being sent using delivery services.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I designed a delivery service app that can be used to track your package either by typing the tracking number or by scanning the QR code. The user is provided with the timeline of the package and the basic details like the seller, delivery partner so that they can know what package is arriving. Recent packages section shows the packages that were delivered over the last month.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/parcel_body.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Opticals Website Redesign",
@@ -114,7 +249,7 @@
       "bg": "#FFDBDB",
       "color": "#FF3333",
       "color-sec": "#FF6666",
-      "context": "I wanted to buy a pair of sunglasses so when I browsed through the internet it gave me a huge number of options to choose from. Then I decided to choose lenskart as they have a lot of varieties, offers and try on options as well. It took me a considerable amount of time to go through the content and interactive features that were presented. So I decided to redesign the lenskart’s website in a minimal style intending to keep their offers and varieties in mind.",
+      "context": "I wanted to buy a pair of sunglasses so when I browsed through the internet it gave me a huge number of options to choose from. Then I decided to choose lenskart as they have a lot of varieties, offers and try on options as well. It took me a considerable amount of time to go through the content and interactive features that were presented. So I decided to redesign the lenskart’s website in a minimal style intending to keep their offers and varieties in mind as theere was a lot to process from the website for the users.",
       "context_img": [
         "optical_1.png",
         "optical_2.png",
@@ -131,8 +266,23 @@
       "bg": "#DBE5FF",
       "color": "#0038CC",
       "color-sec": "#336CFF",
-      "context": "Meditation app has meditation sessions which are used for calming your mind by listening to the handpicked podcasts and to unleash the real you. The app has mind clearing podcasts for every feeling that you have. It also has some quick meditations for you so it can make you feel better. Each user is provided with a special motivational podcast each day and they can continue their podcast from where they left off yesterday as well.",
-      "context_img": "meditation_body.png"
+      "context_img": "meditation_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "Meditation app has meditation sessions which are used for calming your mind by listening to the handpicked podcasts and to unleash the real you.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>The app has mind clearing podcasts for every feeling that the users have. It also has some quick meditations for you so it can make you feel better. I wanted to soak in a fresh feel into the app so I added some colors to the cards. Each user is provided with a special motivational podcast each day and they can continue their podcast from where they left off yesterday as well.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/meditation_body.png'/>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Food Recipe App",
@@ -141,8 +291,23 @@
       "bg": "#E8DDFE",
       "color": "#4606C6",
       "color-sec": "#7939F9",
-      "context": "Cooking food is an art that can be learnt by anyone. This app teaches you delicious food recipes that you want to make and share with your loved ones. It has the whole video of the recipe and a description along with the list of ingredients to make the recipe. The user can save the recipe for future use.",
-      "context_img": "food_body.png"
+      "context_img": "food_body.png",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "To design an app for the users to view food recipes.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>This app teaches you delicious food recipes that you want to make and share with your loved ones. It has the whole video of the recipe and a description along with the list of ingredients to make the recipe. The user can save the recipe for future use.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<img style='margin-top:-45px; border-radius:22px' src='./assets/food_body.png'/>"
+            }
+          ]
+        }
+      ]
     }
   ],
   "case_study": [
@@ -327,34 +492,102 @@
   ],
   "motion_design": [
     {
-      "title": "Cake Ordering App",
-      "desc": "Order Quantity Interaction",
-      "img": "cake_size.png",
-      "video_url": "animation/cake_size.mov",
-      "bg": "#F5A1A1",
-      "color": "#BF1C1C",
-      "context": "There is always this decision users make when ordering a cake. You guessed it right, the weight/size of the cake! Users usually double check or find it hard to read through the text on whether they have ordered the right size of the cake. Hence, I tried to give it a shot by creating a prototype for choosing the size of the cake and added some visual interaction to increase user engagement and ease their experience.",
-      "color-sec": "#E13737"
-    },
-    {
-      "title": "Shopping App",
-      "desc": "Delete item from bag",
-      "img": "shopping_body.png",
-      "video_url": "animation/ecommerce_app.mov",
-      "bg": "#FEE2F0",
-      "color": "#9E0B49",
-      "context": "We all use shopping apps on a daily basis and deleting items from cart is a repetitive action that we as users perform. Here I have created a animation that can be used to easily delete items from cart by using swipe action.",
-      "color-sec": "#F35397"
+      "title": "Magnified Interaction",
+      "desc": "Viewing Feature Animation",
+      "img": "nike2.png",
+      "bg": "#FFE6D8",
+      "portrait": "false",
+      "color": "#D94E00",
+      "context": "Matrimony apps are used by people on a daily basis for finding their life partners. The users are provided with daily matches on the feed in most of the matrimony apps. They are usually in the hassle of choosing their perfect match and they sometimes get bored going through the personal information of a person and deciding whether they like the profile or not. So I thought of adding a left-right swipe animation to increase the user’s engagement on the screen while deciding whether they like the profile or not.",
+      "color-sec": "#FF650F",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "12",
+              "msg": "A common problem the users face in matrimony apps is they get bored going through the profile of a person by clicking at each one of them and deciding whether they like the profile or not.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I thought of adding a card that has the basic personal information of a person like the photo, name, age and a about me section. Then I added a accept and reject button to accept, reject the daily matches the users get. This saves a lot of time of the users and increase the user’s engagement on the screen.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "12",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/nike_magnified_3.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Matrimony App",
       "desc": "Swipe Interaction Animation",
       "img": "matrimony_cover.png",
-      "video_url": "animation/matrimony_app_short.mov",
       "bg": "#FFCCD5",
       "color": "#A8001E",
-      "context": "Matrimony apps are used by people on a daily basis for finding their life partners. The users are provided with daily matches on the feed in most of the matrimony apps. They are usually in the hassle of choosing their perfect match and they sometimes get bored going through the personal information of a person and deciding whether they like the profile or not. So I thought of adding a left-right swipe animation to increase the user’s engagement on the screen while deciding whether they like the profile or not.",
-      "color-sec": "#FF4768"
+      "color-sec": "#FF4768",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "Matrimony apps are used by people on a daily basis for finding their life partners. A common problem the users face is they get bored going through the profile of a person by clicking at each one of them and deciding whether they like the profile or not.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I thought of adding a card that has the basic personal information of a person like the photo, name, age and a about me section. Then I added a accept and reject button to accept, reject the daily matches the users get. This saves a lot of time of the users and increase the user’s engagement on the screen.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/matrimony_app_short.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cake Ordering App",
+      "desc": "Order Quantity Interaction",
+      "img": "cake_size.png",
+      "bg": "#F5A1A1",
+      "color": "#BF1C1C",
+      "color-sec": "#E13737",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "To design a feature that eases the process of confirming the right size of the cake as the users usually find it hard to confirm the desired quantity of the cake.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I added a visual interaction that provides the users clarity over the size of the cake. When a user clicks to add a cake to the cart a drawer appears with the quantity options of the cake and other added information like the servings of the cake. This visual interaction increases user engagement and ease their experience.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/cake_size.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Shopping App",
+      "desc": "Delete item from bag",
+      "img": "shopping_body.png",
+      "bg": "#FEE2F0",
+      "color": "#9E0B49",
+      "color-sec": "#F35397",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "To design a easy way of deleting items from the shopping cart and undo the delete action.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I decided to use swipe action to delete the items from the cart. To delete the item from the cart the user has to swipe left and then a delete button appears, when the delete button is clicked then the item gets deleted from the cart. To undo the action performed the user can click on the undo button that appears from the bottom. <br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/ecommerce_app.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Curved Carousel Interaction",
@@ -365,24 +598,55 @@
       "bg": "#9DC8AC",
       "color": "#2E6040",
       "context": "Interior decoration websites have the need to display the design work they have done for their clients and an image carousel makes a website more interactive by enhancing the user experience. Carousels are inspired from the good old merry-go-round so I tried to make a curved carousel here.",
-      "color-sec": "#3A7850"
+      "color-sec": "#3A7850",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "5",
+              "msg": "Interior decoration websites have the need to display the design work they have done for their clients in a catchy way.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>Carousels are inspired from the good old merry-go-round so an image carousel makes a website more engaging that the users focus on that specific section of the page.</p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "7",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/interior.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Toggle Button",
       "desc": "Light and dark mode",
       "img": "toggle.png",
-      "context_img": "animation/toggle_button.gif",
       "bg": "#CBE7FF",
       "color": "#0089FF",
       "context": "Toggle button is used to display the in and off state on a button. Here I have tried to create a toggle animation for light and dark mode. Personally I have always been a fan of dark mode as they are subtle on the eyes for me rather than being very much bright and heavy on my eyes.",
-      "color-sec": "#005BA8"
+      "color-sec": "#005BA8",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "6",
+              "msg": "Toggle button is used to display the in and off state on a button.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>Here I have tried to create a toggle animation for light and dark mode. I designed sun and moon to indicate the light and dark mode with the appropriate background with clouds and stars. When the user starts the right swipe action, I animated the clouds in the background to move and did the same with the stars for dark mode.</p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "6",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/toggle.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
     }
   ],
   "blogs": [
     {
       "title": "Micro-Interaction Button",
       "desc": "Adopt pets animation",
-      "img": "cat.png",
+      "img": "cat_2.png",
       "bg": "#FFC5E1",
       "context": "A micro-interaction is an essential way of  engaging people by providing them with  interesting feedback on the activity that  they accomplished. I have written a blog on the process of making the micro-interaction of adopt me button. By making some simple additions will make this static illustration alive. Tweaking the values of custom spring mode using smart  animate feature.A micro-interaction is an essential way of  engaging people by providing them with  interesting feedback on the activity that  they accomplished.",
       "color": "#941452",

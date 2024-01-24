@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+
 * {
   font-family: "Poppins", sans-serif;
   /* font-family: "Roboto", sans-serif; */
 }
-body {
-}
+
+body {}
+
 .bg {
   position: fixed;
   width: 100vw;
   height: 100vh;
   z-index: -1;
 }
+
 main {
   /* height: 100vh;
   display: flex;
@@ -21,6 +24,7 @@ main {
   overflow-y: auto;
   background-color: rgb(255, 255, 255); */
 }
+
 .sidebar {
   height: 100vh;
   margin: auto 0;
@@ -30,12 +34,14 @@ main {
   position: fixed;
   z-index: 1;
 }
+
 .nav {
   border-radius: 36px;
   background: rgb(255, 255, 255);
   width: 3.4rem;
   box-shadow: rgb(0 0 0 / 15%) 0px 0px 40px;
 }
+
 .nav li a {
   height: 3.4rem;
   width: 3.4rem;
@@ -57,6 +63,7 @@ main {
   background: var(--color-primary) !important;
   color: #ffffff !important;
 }
+
 .nav-link:hover {
   /* border: 6px var(--color-primary) solid !important; */
   /* box-shadow: inset 0 0 0 2px var(--color-primary); */
@@ -66,6 +73,7 @@ main {
 .nav-link img {
   transform: scale(0.8);
 }
+
 .nav-link.active img {
   color: #ffffff !important;
   filter: invert(1);
@@ -78,39 +86,51 @@ main {
 .home {
   content: url(./assets/home.svg);
 }
+
 .projects {
   content: url(./assets/projects.svg);
 }
+
 .blog {
   content: url(./assets/blogs.svg);
 }
+
 .contact {
   content: url(./assets/contact.svg);
 }
+
 .behance {
   content: url(./assets/behance.svg);
 }
+
 .dribble {
   content: url(./assets/dribble.svg);
 }
+
 .medium {
   content: url(./assets/medium.svg);
 }
+
 .arrow-down {
   content: url(./assets/arrow-down.svg);
 }
+
 .instagram {
   content: url(./assets/instagram.svg);
 }
+
 .linkedin {
   content: url(./assets/linkedin.svg);
 }
+
 .email {
   content: url(./assets/email.svg);
 }
+
 .explore-arrow {
   content: url(./assets/explore-arrow.svg);
 }
+
 .back-arrow {
   content: url(./assets/back-btn.svg);
 }
@@ -160,15 +180,18 @@ main {
 .landing h1:nth-child(3) {
   color: #0068ee;
 }
+
 .landing h6 {
   margin-top: 10px;
   font-weight: 500;
 }
+
 .landing h3 {
   margin-top: 10px;
   text-align: left;
   font-weight: 600;
 }
+
 .landing p {
   margin-top: 30px;
   text-align: left;
@@ -176,6 +199,7 @@ main {
   line-height: 3;
   font-size: 18px;
 }
+
 .next {
   /* border: none !important; */
   box-shadow: rgb(0 0 0 / 15%) 0px 0px 40px;
@@ -201,6 +225,7 @@ main {
 .next:hover img {
   transform: translateY(2px);
 }
+
 .explore-btn {
   border: none !important;
   box-shadow: rgb(0 0 0 / 15%) 0px 0px 40px;
@@ -222,14 +247,17 @@ main {
 .next:hover img {
   transform: translateY(2px);
 }
+
 .intro-img {
   margin-top: 3rem;
 }
+
 .intro-desc-img {
   margin-top: 5rem;
   padding: 0 0px;
   width: -webkit-fill-available;
 }
+
 .intro-desc {
   height: 100vh;
   margin-left: 100px;
@@ -258,6 +286,7 @@ main {
   padding-bottom: 50px;
   animation: fadeInUp 1s ease;
 }
+
 /* 
 .zoomable .card {
   max-height: 350px;
@@ -286,6 +315,7 @@ main {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -296,13 +326,14 @@ main {
     transform: translate(0, 30px);
     opacity: 0;
   }
+
   100% {
     transform: translate(0, 0);
     opacity: 1;
   }
 }
 
-.row > div {
+.row>div {
   /* background: gray; */
   /* margin: 10px 10px 10px 10px; */
   /* padding-left: 25px; */
@@ -322,6 +353,7 @@ main {
   animation: normal 0.2s fadeIn;
   border: none;
 }
+
 .card .card-body {
   padding: 1rem 1.3em;
 }
@@ -334,8 +366,9 @@ main {
   /* width: -webkit-fill-available; */
   /* height: 330px; */
 }
- /* for case study img */
-.card-body- img{
+
+/* for case study img */
+.card-body- img {
   width: -webkit-fill-available;
 }
 
@@ -371,16 +404,19 @@ main {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 #projects-detail .card {
   /* height: auto; */
   /* margin: 20px 0; */
   background: #fff !important;
 }
+
 #projects-detail .container {
   /* margin-left: 30px !important; */
   margin-left: unset;
 }
-#projects-detail .container .row > :nth-child(2) .card .card-body {
+
+#projects-detail .container .row> :nth-child(2) .card .card-body {
   padding: 0 20px !important;
 }
 
@@ -392,23 +428,28 @@ main {
   margin-right: 6px;
   margin-left: 20px;
 }
+
 #projects-detail .card-title {
   margin: 0;
 }
+
 #projects-detail #context-desc {
   margin-top: 20px;
   margin-left: 30px;
   font-weight: 300;
   line-height: 2;
 }
-#projects-detail .container .row > :nth-child(1),
-#projects-detail .container .row > :nth-child(2) {
+
+#projects-detail .container .row> :nth-child(1),
+#projects-detail .container .row> :nth-child(2) {
   padding: 0 5px;
 }
-#projects-detail .container .row > :nth-child(2) .context-img {
+
+#projects-detail .container .row> :nth-child(2) .context-img {
   width: -webkit-fill-available;
   border-radius: 22px;
 }
+
 #contact .view-btn,
 #projects-detail .view-btn {
   border: none !important;
@@ -426,6 +467,7 @@ main {
   padding: 0 15px !important;
   margin-left: 30px;
 }
+
 #contact .view-btn {
   margin-left: 0;
   padding: 0 25px !important;
@@ -433,12 +475,14 @@ main {
   height: 3.5rem;
   margin-right: 20px;
 }
-#contact .view-btn > img {
+
+#contact .view-btn>img {
   width: 20px;
   height: 20px;
   margin-left: unset;
   margin-right: 5px;
 }
+
 #contact .card-body {
   padding: 0;
   margin-bottom: 50px;
@@ -462,7 +506,7 @@ main {
 
 .point::before {
   content: "\25BA\  ";
-  color: #195bff;
+  /* color: #195bff; */
 }
 
 .m-l30 {
@@ -473,6 +517,7 @@ main {
 .color-circle-wrapper {
   margin-top: -14px;
 }
+
 .color-circle-wrapper2 {
   margin-top: 8px;
 }
@@ -492,6 +537,7 @@ main {
 .no-t-d {
   text-decoration: none;
 }
+
 .zoomable .card .card-body a .c-img {
   transition: transform 0.7s;
 }
@@ -506,6 +552,7 @@ main {
   0% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(1.1);
   }
@@ -528,14 +575,14 @@ main {
 }
 
 .quote {
-  background: #f0f4ff;
+  background: #f8f8f8;
   padding: 50px;
   border-radius: 10px;
 }
 
 .quote .point::before {
   content: "\a\“";
-  color: #195bff;
+  /* color: #195bff; */
   font-family: "Passion One", cursive;
   display: block;
   font-size: 68px;
@@ -546,8 +593,10 @@ main {
 
 .quote .br::before {
   content: "\a\“  ";
-  color: #195bff;
+  /* color: #195bff; */
+  /* color: var(--a); */
 }
+
 .quote .br {
   content: "\a\25BA" !important;
   white-space: pre-line;

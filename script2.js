@@ -390,6 +390,7 @@ function split_col(data) {
   var html_col = `<div class="card-body-"><div class="row">`;
   // var html_col = ``;
   data.forEach((el) => {
+
     if (el["img"])
       html_col +=
         `<div class="active col-lg-` +
@@ -399,7 +400,14 @@ function split_col(data) {
         el.img +
         `" /> ` +
         `</div>`;
-    if (el["msg"])
+    if (el["msg"]) {
+      temp_msg = document.createElement('div');
+      temp_msg.innerHTML = el.msg;
+      temp_msg.querySelectorAll('span').forEach(function (span) {
+        if (el.color) span.style.color = el.color;
+      });
+      var htmlObject_msg = temp_msg;
+      console.log(htmlObject_msg.innerHTML)
       html_col +=
         `<div class="active col-lg-` +
         el.size +
@@ -407,11 +415,13 @@ function split_col(data) {
         (el.type === "quote" ? `quote context-desc-padd-quote` : ``) +
         `">` +
         (el.type === "quote" || el.type === "point"
-          ? `<span class="point"></span>`
+          ? `<span class="point" ` + (el.color != null ? `style="color:` + el.color + `"` : ``) + `></span>`
           : ``) +
-        el.msg +
+
+        (el.type === "quote" || el.type === "point" ? htmlObject_msg.innerHTML : el.msg) +
         `</p>` +
         `</div>`;
+    }
   });
   html_col += ` </div></div>`;
   return html_col;

@@ -316,9 +316,8 @@
       "desc": "Find Tutors Near You",
       "img": "casestudy/brilliant_cover.png",
       "bg": "#CCDAFF",
-      "color": "#003ACC",
-      "color-sec": "#336DFF",
-      "dribble_url": "kjfdhkjsda",
+      "color": "#195bff",
+      "color-sec": "#3670FF",
       "portrait": "false",
       "e_data": [
         {
@@ -367,11 +366,13 @@
             {
               "size": "12",
               "type": "point",
+              "color": "#195bff",
               "msg": "People in the age group of 40-55 years as its the general age of the parents having kids ranging from 14-18 years of age."
             },
             {
               "size": "12",
               "type": "point",
+              "color": "#195bff",
               "msg": "People with children having lower grades."
             }
           ]
@@ -383,16 +384,19 @@
             {
               "size": "12",
               "type": "point",
+              "color": "#195bff",
               "msg": "Add trial class feature to eliminate the blind trust on tutors"
             },
             {
               "size": "12",
               "type": "point",
+              "color": "#195bff",
               "msg": "Submit assignment and download notes"
             },
             {
               "size": "12",
               "type": "point",
+              "color": "#195bff",
               "msg": "Locate tuitions near users"
             }
           ]
@@ -426,6 +430,7 @@
             {
               "size": "12",
               "type": "quote",
+              "color": "#195bff",
               "msg": "The colour scheme used didn’t make me feel like I am using some kind of an education app.<span class='br'></span>I really liked the idea of showing the story of the tuitions. It gave me the confidence that my kid will succeed like so one day.<span class='br'></span>I loved using the trial class feature as it helped me and my child in deciding which tutor would be the best.<span class='br'></span>It would be helpful to have more information about the tutors for each subjects and the fee.<span class='br'></span>The process of finding nearby tutors was very easy to use."
             }
           ]
@@ -480,6 +485,150 @@
         {
           "size": "12/12",
           "head": "Project Summary",
+          "col": [
+            {
+              "size": "12",
+              "msg": "During the project, I did user research, create a set of low fidelity wireframes and build them into high fidelity wireframes, connected them into a prototype and performed a mini usability study by testing them with few users. It was a challenging task and I had a very insightful journey. I learned a lot throughout the process but there is a lot of room for improvement and additional features."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kidcabs",
+      "desc": "Secure Transportation app for Kids",
+      "img": "casestudy/kidcabs_head.png",
+      "bg": "#CCFFE8",
+      "color": "#008548",
+      "color-sec": "#00B964",
+      "portrait": "false",
+      "e_data": [
+        {
+          "size": "12/12",
+          "head": "no_head",
+          "col": [
+            {
+              "size": "12",
+              "msg": "<img src='./assets/casestudy/kidcabs_body.png' style='width: -webkit-fill-available'/>"
+            }
+          ]
+        },
+        {
+          "size": "full",
+          "head": "Project Overview",
+          "msg": "There are many transportation services for adults but there is none or a few for kids. Generally parents send their kids in the cab as what the school provides or where the kids schoolmates opt to. There seems to be no other way for the parents to find cabs for their kids. In order to fulfill this need I thought of creating an application that bridges the gap between parents and the cab drivers while ensuring a safe journey for kids. The goal is to create an easy-to-use and secure transportation application for an upcoming company called KidCabs, which caters to children in India's Tier 1 cities. The challenge is to ensure that children are safe in the cab, are readily picked up, and arrive at their destination while giving parents complete control and peace of mind."
+        },
+        {
+          "size": "full",
+          "head": "Phase 1 - Discover",
+          "msg": "When I dove deep into the proposed product, I decided to study the audience by doing a user research and it was an interesting yet a challenging task. They shared a lot of scenarios out of which there arised many questions in my mind.<h6 class='m-l30'><b>Who are the people we are designing for?</b></h6><br><span class='m-l30'>-> Parents who are between the age group 30-70.<br> -> Parents who are busy with their household and professional chores.<br> -> Parents who are old aged having blurred vision.<br> -> Protective female parents who only care about safety of their children.</span><br><h6 class='m-l30'><b>What are their pain points when it comes to finding or booking cabs for their children?</b></h6><br><span class='m-l30'> -> <b>Safety</b> - To ensure kids safety. Safety precautions like some sort of in-app emergency services.<br> -> <b>Recurring Rides</b> - To book recurring rides for their kids. For example, specific dates or for a month or so.<br> -> <b>Reminders</b> - To get notified beforehand about the scheduled ride and also before the ride arrives that is when a cab enters a 2km radius.<br> -> <b>Parental Controls</b> - To make sure my kids don't book a cab without my knowledge.<br> -> <b>Easy UI</b> - Easy to use interfaces that anyone can use regardless of the age.</span><br><h6 class='m-l30'><b>Key Needs</b></h6><br><span class='m-l30'>a) User needs to book cab for their kids while ensuring their safety. <br>b) User needs to book cab on a recurring basis.<br>c) User needs to easily book cab despite not knowing how to use such applications.<br>d) User needs to verify the booking made by their children.</span>"
+        },
+        {
+          "size": "12/12",
+          "head": "Phase 2 - Define",
+          "col": [
+            {
+              "size": "12",
+              "msg": "The methodoly I followed to solve the problem was ideation, User Personas, User Journey maps and Low-fidelity wireframes.<br>"
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "color": "#00B964",
+              "msg": "<b>Ideation</b><br>After understanding the user scenarios, I decided to decode their user journeys and ideated my decisions about the approach of the app. Creating two apps, one for parents and one for kids was the game changer that addresses all the user needs by providing parental controls, safety and an extra layer of precaution. My thought process was to design a parents app using which users can book cabs, allow access to their children, set custom alerts like geofencing, loud noise, overspeeding, route deviation. They can also select the favourite locations for their kids so that their kida can book cabs only to and from those locations. The main feature of the parents app is that they get to verify whenever their kid books a ride so that they don't travel anywhere without their parents knowledge."
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "color": "#00B964",
+              "msg": "<b>User Personas</b><br>After analysing the user needs, I mapped four personas according to the prioritization. I carefully created four personas without adding my own assumptions about the project."
+            },
+            {
+              "size": "12",
+              "img": "casestudy/personas.png"
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "color": "#00B964",
+              "msg": "<b>Goals</b><br>By observing the user journey of all the personas, I mapped their respective motives of using the Kidcabs app. The main goals of the project were, <br>a) A safe and secure transportation service for female kids.<br>b) A transport app that allows the user to make recurring bookings at a time for a month or so and reminds them about the ride.<br>c) A easy to use transport app that notifies when the user’s grand kid gets picked up or dropped as the user is aged and has blurred vision.<br>d) A secure transport app that does not allow her kids to book cab without her permission.<br><br><img src='./assets/casestudy/goals.png' style='width:700px;height:350px;' />"
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "color": "#00B964",
+              "msg": "<b>Low-Fidelity Wireframes</b><br>After the brainstorming session about the user scenarios and their journeys, I mapped the user journeys in my mind and designed the initial wireframes of the application. The goal was to fulfill the necessity of the users to book a cab service for their kids easily and also to make sure that they are safe. Through rapid sketching, I explored a variety of layouts and interaction patters ensuring that the app felt more trustworthy. This iterative method made it easier to find design components that parents could easily navigate and interact with.<br>"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Phase 3 - Design",
+          "col": [
+            {
+              "size": "12",
+              "msg": "Once the initial flow was completed and the wireframes were ready, I started creating a couple of main screens for the app. Choosing the typeface and the set of colours were the two most significant tasks. I created a simple UI style guide to maintain consistency. Then I created a typography scale to ensure that hierarchy is preserved throughout the project."
+            },
+            {
+              "size": "4",
+              "msg": "<b>Colors</b><br /><span style='font-weight: 300'>Primary</span><div class='color-circle-wrapper d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #00B964'></span><span class='color-circle'        style='--colr: #B9B9B9'></span><span class='color-circle' style='--colr: #FFFFFF'></span></div><span style='font-weight: 300'class='m-l30'>Secondary</span><br /><div class='color-circle-wrapper2 d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #F05656'></span><span        class='color-circle' style='--colr: #72B3FF'></span><span class='color-circle'        style='--colr: #5A5A5A'></span><span class='color-circle' style='--colr: #949494'></span><span        class='color-circle' style='--colr: #232323'></span></div>"
+            },
+            {
+              "size": "4",
+              "msg": "<b>Typeface</b><br /><span style='font-weight: 300'>Poppins</span><br /><span style='font-weight: 300'>Semibold, Medium, Regular</span><br /><span style='font-size:20px'><b>Aa</b> Aa</span><br />"
+            },
+            {
+              "size": "4",
+              "msg": "<b>Build trust</b><br/><span>With the safety precautions we provide and our 16 step verification process we can establish a sense of trust amongst the users.</span>"
+            },
+            {
+              "size": "12",
+              "img": "casestudy/mockups_kidcabs.png"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Usability Testing",
+          "col": [
+            {
+              "size": "12",
+              "msg": "I tested the usability of the lofi-prototype with a group of prospective users in order to determine its functionality and spot any problems. This included keeping an eye on people while they interacted with the prototype and gathering input about their initial thoughts. I gained insightful knowledge using this approach, which helped me pinpoint areas that needed improvement and make crucial adjustments to enhance the user experience."
+            },
+            {
+              "size": "12",
+              "msg": "<h6 class='m-l30'>Key Takeaways</h6><br><span class='m-l30'>Here are some of the key takeaways from the user testing sessions.</span>"
+            },
+            {
+              "size": "12",
+              "type": "quote",
+              "color": "#00B964",
+              "msg": "Can add a new page for making payment in parent app.<span class='br' style='--color:red'></span>Geofencing feature was impressive.<span class='br'></span>Favourites icon in the parent app is confusing.<span class='br'></span>Safety features looks great. UI looks impressive.<span class='br'></span>Verifying the driver’s identity is easy. Selecting date is bit tough."
+            }
+          ]
+        },
+        {
+          "size": "full",
+          "head": "Design Iteration",
+          "msg": "During the iterative design process, I received feedback from users that the favourites location icon was confusing as it moved from right to left while clicking on it. So I decided to keep the favourites location icon in the same place even after the users click on it.<br/><br/>Another area I iteratively improved upon was to add a separate confirmation, payments page so that the users donot book cabs at fault. Adding parental controls in the app ensures that the kids donot book cabs by themselves and go by their own wish. Parents need to verify each and every trip a kid books without which a trip is not confirmed. This adds an extra layer of safety, awareness to kids and parents.<br/><br/>In addition to these changes, I received feedback from the users of the kids app that selecting dates was confusing. So I brought in the thought of the good old calendar which the kids will be aware of instead of the shorter and cleaner calendar UI that I designed for the adults. Further addition of 16-step verification feature and our safety precautions like geofencing, emergency SOS, cameras helps to build trust with the customers.<br/><br/>Each iteration was made by user feedback, with the goal of making the app more user-friendly, visually appealing, and effective at helping users book the cabs easily.<br/><br/>By using an iterative design process, I was able to make incremental improvements to the app over time, leading to a final design that effectively met the needs and preferences of our users."
+        },
+        {
+          "size": "12/12",
+          "head": "Prototype",
+          "col": [
+            {
+              "size": "12",
+              "msg": "Here is the <a href='https://www.figma.com/file/WrkfbclFzr2sCtKyiyz1vw/brilliant-revamp?type=design&node-id=162%3A5574&mode=design&t=aBYrc2jIWMMvfJMg-1'><b>prototype</b></a> of Parents's app where parents can book cab services on specific dates or repeatedly. They shall set their customized lert setup to ensure the safety of their children. They can verify the rides their kid books as well and they can watch livefeed of their kids while they travel. Parents have the choice to set favourite locations for their children and their children get to book and go only to those places.<br></br><video style='width:500px;height:500px;' loop src='./assets/casestudy/parentsapp.mov' muted playsinline  autoplay></video>"
+            },
+            {
+              "size": "12",
+              "msg": "Here is the <a href='https://www.figma.com/file/WrkfbclFzr2sCtKyiyz1vw/brilliant-revamp?type=design&node-id=162%3A5574&mode=design&t=aBYrc2jIWMMvfJMg-1'><b>prototype</b></a> of Kid's app where kids can scan the QR code displayed on the cab that arrives to pick them up and then they are provided with the driver's picture. When a kid rejects the driver's identity being displayed then a direct call is made to the parent. Then the kid can book a ride which the parent needs to verify or the parent can directly book a ride for their kid. The kid's app is only displayed with the locations that their parents have allowed them to go to.<br></br><video style='width:500px;height:500px;' loop src='./assets/casestudy/kidsapp.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Project Learnings",
           "col": [
             {
               "size": "12",

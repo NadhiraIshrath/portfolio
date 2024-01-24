@@ -551,7 +551,7 @@
               "size": "12",
               "type": "point",
               "color": "#00B964",
-              "msg": "<b>Goals</b><br>By observing the user journey of all the personas, I mapped their respective motives of using the Kidcabs app. The main goals of the project were, <br>a) A safe and secure transportation service for female kids.<br>b) A transport app that allows the user to make recurring bookings at a time for a month or so and reminds them about the ride.<br>c) A easy to use transport app that notifies when the user’s grand kid gets picked up or dropped as the user is aged and has blurred vision.<br>d) A secure transport app that does not allow her kids to book cab without her permission.<br><br><img src='./assets/casestudy/goals.png' style='width:700px;height:350px;' />"
+              "msg": "<b>Goals</b><br>By observing the user journey of all the personas, I mapped their respective motives of using the Kidcabs app. The main goals of the project were, <br>a) A safe and secure transportation service for female kids.<br>b) A transport app that allows the user to make recurring bookings at a time for a month or so and reminds them about the ride.<br>c) A easy to use transport app that notifies when the user’s grand kid gets picked up or dropped as the user is aged and has blurred vision.<br>d) A secure transport app that does not allow her kids to book cab without her permission.<br><br><img src='./assets/casestudy/goals.png' style='width: -webkit-fill-available' />"
             },
             {
               "size": "12",

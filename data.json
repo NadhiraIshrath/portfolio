@@ -647,7 +647,7 @@
       "bg": "#FFE6D8",
       "portrait": "false",
       "color": "#D94E00",
-      "context": "Matrimony apps are used by people on a daily basis for finding their life partners. The users are provided with daily matches on the feed in most of the matrimony apps. They are usually in the hassle of choosing their perfect match and they sometimes get bored going through the personal information of a person and deciding whether they like the profile or not. So I thought of adding a left-right swipe animation to increase the user’s engagement on the screen while deciding whether they like the profile or not.",
+      "context": "A common problem that users face while viewing footwear on Nike is that they would have to click each and every product they like to have a close view at it. This makes the user spend a lot of time to view footwear.",
       "color-sec": "#FF650F",
       "e_data": [
         {
@@ -656,7 +656,7 @@
           "col": [
             {
               "size": "12",
-              "msg": "A common problem the users face in matrimony apps is they get bored going through the profile of a person by clicking at each one of them and deciding whether they like the profile or not.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I thought of adding a card that has the basic personal information of a person like the photo, name, age and a about me section. Then I added a accept and reject button to accept, reject the daily matches the users get. This saves a lot of time of the users and increase the user’s engagement on the screen.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+              "msg": "A common problem that users face while viewing footwear on Nike is that they would have to click each and every product they like to have a close view at it. This makes the user spend a lot of time to view footwear.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>I tried to reduce the mean time spent by users in viewing the footwear by creating a magnified interaction. This interaction catches the attention of the user by the flicker of a snappy hotspot which when clicked shows a magnified view of the product and the user can horizontally drag through to take a closer look at the product. This eliminates the extra time spent on viewing each product.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
             },
             {
               "size": "12",

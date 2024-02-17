@@ -794,7 +794,7 @@
   "blogs": [
     {
       "title": "Micro-Interaction Button",
-      "desc": "Adopt pets animation",
+      "desc": "Adopt Pets Animation",
       "img": "cat_2.png",
       "bg": "#FFC5E1",
       "context": "A micro-interaction is an essential way of  engaging people by providing them with  interesting feedback on the activity that  they accomplished. I have written a blog on the process of making the micro-interaction of adopt me button. By making some simple additions will make this static illustration alive. Tweaking the values of custom spring mode using smart  animate feature.A micro-interaction is an essential way of  engaging people by providing them with  interesting feedback on the activity that  they accomplished.",

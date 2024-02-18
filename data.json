@@ -1,22 +1,6 @@
 {
   "visual_design": [
     {
-      "title": "Cake E-commerce Website",
-      "desc": "Order freshly made cakes",
-      "img": "cake_cover.png",
-      "portrait": "false",
-      "bg": "#FFEEF4",
-      "color": "#8B1D47",
-      "color-sec": "#B5265C",
-      "context": "A client approached me to design a website for their cake startup that they had launched recently. They make homemade cakes that look very exotic and taste yummy as well. I wanted to add that happy and creamy feeling when we look at a cake and the decor we see on top of the cake through the website. So I made flowy designs and added curvy lines to the headers of each section. I added a testimonials section to hear from their happy customers.",
-      "context_img": [
-        "cake_1.png",
-        "cake_2.png"
-      ],
-      "url_text": "View on Behance",
-      "url": "https://www.behance.net/gallery/165980643/Cake-Web-Design"
-    },
-    {
       "title": "Co-working Space App",
       "desc": "Find your coworking space",
       "img": "coworking_1.png",
@@ -478,7 +462,7 @@
           "col": [
             {
               "size": "12",
-              "msg": "Here is the <a href='https://www.figma.com/file/WrkfbclFzr2sCtKyiyz1vw/brilliant-revamp?type=design&node-id=162%3A5574&mode=design&t=aBYrc2jIWMMvfJMg-1'><b>prototype</b></a> of brilliant.<br></br><video style='width:500px;height:500px' loop src='./assets/casestudy/brilliant_prototype.mov' muted playsinline  autoplay></video>"
+              "msg": "Here is the prototype of brilliant.<br></br><video style='width:500px;height:500px' loop src='./assets/casestudy/brilliant_prototype.mov' muted playsinline  autoplay></video>"
             }
           ]
         },
@@ -557,7 +541,7 @@
               "size": "12",
               "type": "point",
               "color": "#00B964",
-              "msg": "<b>Low-Fidelity Wireframes</b><br>After the brainstorming session about the user scenarios and their journeys, I mapped the user journeys in my mind and designed the initial wireframes of the application. The goal was to fulfill the necessity of the users to book a cab service for their kids easily and also to make sure that they are safe. Through rapid sketching, I explored a variety of layouts and interaction patters ensuring that the app felt more trustworthy. This iterative method made it easier to find design components that parents could easily navigate and interact with.<br>"
+              "msg": "<b>Low-Fidelity Wireframes</b><br>After the brainstorming session about the user scenarios and their journeys, I mapped the user journeys in my mind and designed the initial wireframes of the application. The goal was to fulfill the necessity of the users to book a cab service for their kids easily and also to make sure that they are safe. Through rapid sketching, I explored a variety of layouts and interaction patterns ensuring that the app felt more trustworthy. This iterative method made it easier to find design components that parents could easily navigate and interact with.<br>"
             }
           ]
         },
@@ -618,11 +602,141 @@
           "col": [
             {
               "size": "12",
-              "msg": "Here is the <a href='https://www.figma.com/file/WrkfbclFzr2sCtKyiyz1vw/brilliant-revamp?type=design&node-id=162%3A5574&mode=design&t=aBYrc2jIWMMvfJMg-1'><b>prototype</b></a> of Parents's app where parents can book cab services on specific dates or repeatedly. They shall set their customized lert setup to ensure the safety of their children. They can verify the rides their kid books as well and they can watch livefeed of their kids while they travel. Parents have the choice to set favourite locations for their children and their children get to book and go only to those places.<br></br><video style='width:500px;height:500px;' loop src='./assets/casestudy/parentsapp.mov' muted playsinline  autoplay></video>"
+              "msg": "Here is the prototype of Parents's app where parents can book cab services on specific dates or repeatedly. They shall set their customized lert setup to ensure the safety of their children. They can verify the rides their kid books as well and they can watch livefeed of their kids while they travel. Parents have the choice to set favourite locations for their children and their children get to book and go only to those places.<br></br><video style='width:500px;height:500px;' loop src='./assets/casestudy/parentsapp.mov' muted playsinline  autoplay></video>"
             },
             {
               "size": "12",
-              "msg": "Here is the <a href='https://www.figma.com/file/WrkfbclFzr2sCtKyiyz1vw/brilliant-revamp?type=design&node-id=162%3A5574&mode=design&t=aBYrc2jIWMMvfJMg-1'><b>prototype</b></a> of Kid's app where kids can scan the QR code displayed on the cab that arrives to pick them up and then they are provided with the driver's picture. When a kid rejects the driver's identity being displayed then a direct call is made to the parent. Then the kid can book a ride which the parent needs to verify or the parent can directly book a ride for their kid. The kid's app is only displayed with the locations that their parents have allowed them to go to.<br></br><video style='width:500px;height:500px;' loop src='./assets/casestudy/kidsapp.mov' muted playsinline  autoplay></video>"
+              "msg": "Here is the prototype of Kid's app where kids can scan the QR code displayed on the cab that arrives to pick them up and then they are provided with the driver's picture. When a kid rejects the driver's identity being displayed then a direct call is made to the parent. Then the kid can book a ride which the parent needs to verify or the parent can directly book a ride for their kid. The kid's app is only displayed with the locations that their parents have allowed them to go to.<br></br><video style='width:500px;height:500px;' loop src='./assets/casestudy/kidsapp.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Project Learnings",
+          "col": [
+            {
+              "size": "12",
+              "msg": "During the project, I did user research, create a set of low fidelity wireframes and build them into high fidelity wireframes, connected them into a prototype and performed a mini usability study by testing them with few users. It was a challenging task and I had a very insightful journey. I learned a lot throughout the process but there is a lot of room for improvement and additional features."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cake E-commerce Website",
+      "desc": "Order freshly made cakes",
+      "img": "casestudy/cake_cover.png",
+      "bg": "#FFEEF4",
+      "color": "#8B1D47",
+      "color-sec": "#B5265C",
+      "portrait": "false",
+      "e_data": [
+        {
+          "size": "12/12",
+          "head": "no_head",
+          "col": [
+            {
+              "size": "12",
+              "msg": "<img src='./assets/casestudy/cake_cover_main.png' style='width: -webkit-fill-available'/>"
+            }
+          ]
+        },
+        {
+          "size": "full",
+          "head": "Project Overview",
+          "msg": "A client approached me to design a website for their cake startup that they had launched recently. Its a home grown brand and they make cakes that look very exotic and taste yummy as well. The project was to design a beautiful user interface and user experience. I thought of adding that happy and creamy feeling when we look at a cake and the decor we see on top of the cake through out the website."
+        },
+        {
+          "size": "full",
+          "head": "Phase 1 - Discover",
+          "msg": "When I dove deep into the proposed product, I decided to study the audience by doing a user research and it was an interesting task. The client wanted few features in the website like online payment option, delivery etc and shared some insights about their users.<h6 class='m-l30'><b>Who are the people we are designing for?</b></h6><br><span class='m-l30'>-> People who are between the age group 15-70.<br> -> People who are busy with their household and professional chores.<br> </span><br><h6 class='m-l30'><b>What are their pain points when it comes to ordering cakes?</b></h6><br><span class='m-l30'> -> <b>Date and Time</b> - To ensure that the cake is delivered in the mentioned date and time.<br> -> <b>Easy Refund</b> - To get refund easily if the cake is damaged or having any quality issues.<br> -> <b>Customize Cakes</b> - To get teh cakes customized according to our likeliness.<br> </span><br><h6 class='m-l30'><b>Key Needs</b></h6><br><span class='m-l30'>a) User needs to get the cake delivered at the mentioned date and time. <br>b) User needs to get easy refunds if the cake is damaged or having any quality issues after getting delivered.<br>c) User needs to customize their cakes like choosing eggless cakes.</span>"
+        },
+        {
+          "size": "12/12",
+          "head": "Phase 2 - Define",
+          "col": [
+            {
+              "size": "12",
+              "msg": "The methodoly I followed to solve the problem was ideation, user goals and low-fidelity wireframes.<br>"
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "color": "#D12C6A",
+              "msg": "<b>Ideation</b><br>After understanding the user needs, I decided to decode their user journeys and ideated my decisions about the approach of the website. Prioritizing the idea of locking in the happy and creamy feeling while looking at a cake, I decided to create a minimal website as the client had limited options of cake."
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "color": "#D12C6A",
+              "msg": "<b>Goals</b><br>By observing the user journey of all the personas, I mapped their respective motives of using the Kidcabs app. The main goals of the project were, <br>a) Cake should be delivered in the mentioned date and time.<br>b) Refunds should be provided if there is any damage or quality issues while receiving the cake.<br>c) Customization options like being able to choose egg or eggless cake.<br><br><img src='./assets/casestudy/cake_goals.png' style='width: -webkit-fill-available' />"
+            },
+            {
+              "size": "12",
+              "type": "point",
+              "color": "#D12C6A",
+              "msg": "<b>Low-Fidelity Wireframes</b><br>After the brainstorming session about the user scenarios and their journeys, I mapped the user journeys in my mind and designed the initial wireframes of the website with the hierarchical approach. The goal was to fulfill the necessity of the users to order a cake easily. Through rapid sketching, I explored a variety of layouts and interaction patterns ensuring that the app felt more trustworthy and warm. This iterative method made it easier to find design components that the users could easily navigate and interact with.<br>"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Phase 3 - Design",
+          "col": [
+            {
+              "size": "12",
+              "msg": "Once the initial flow was completed and the wireframes were ready, I started creating a couple of main screens for the website. Choosing the typeface and the set of colours were the two most significant tasks. I chose a attractive font to inculcate the authenticity of a cake website and matched it with a normal font. This gave that extra magic touch to the website and made it look more pleasing. I created a simple UI style guide to maintain consistency. Then I created a typography scale to ensure that hierarchy is preserved throughout the project."
+            },
+            {
+              "size": "4",
+              "msg": "<b>Colors</b><br /><span style='font-weight: 300'>Primary</span><div class='color-circle-wrapper d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #D22C6A'></span><span class='color-circle'        style='--colr: #C9C9C9'></span><span class='color-circle' style='--colr: #FFFFFF'></span></div><span style='font-weight: 300'class='m-l30'>Secondary</span><br /><div class='color-circle-wrapper2 d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #2A2A2A'></span><span        class='color-circle' style='--colr: #515151'></span><span class='color-circle'        style='--colr: #5C5C5C'></span><span class='color-circle' style='--colr: #898989'></span><span        class='color-circle' style='--colr: #232323'></span></div>"
+            },
+            {
+              "size": "4",
+              "msg": "<b>Typeface</b><br /><span style='font-weight: 300'>Elsie Swash Caps</span><br /><span style='font-weight: 300'>Black</span><br /><span style='font-weight: 300'>Outfit</span><br /><span style='font-weight: 300'>Semibold, Medium, Regular, Light</span><br />"
+            },
+            {
+              "size": "4",
+              "msg": "<b>Show Ethnicity</b><br/><span>With the flowy and colorful UI we established a sense of ethnicity amongst the users.</span>"
+            },
+            {
+              "size": "12",
+              "img": "casestudy/mockups_cake.png"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Usability Testing",
+          "col": [
+            {
+              "size": "12",
+              "msg": "I tested the usability of the lofi-prototype with a group of prospective users in order to determine its functionality and spot any problems. This included keeping an eye on people while they interacted with the prototype and gathering input about their initial thoughts. I gained insightful knowledge using this approach, which helped me pinpoint areas that needed improvement and make crucial adjustments to enhance the user experience."
+            },
+            {
+              "size": "12",
+              "msg": "<h6 class='m-l30'>Key Takeaways</h6><br><span class='m-l30'>Here are some of the key takeaways from the user testing sessions.</span>"
+            },
+            {
+              "size": "12",
+              "type": "quote",
+              "color": "#D12C6A",
+              "msg": "Very beautiful and pleasing UI.<span class='br' style='--color:red'></span>Display of pictures was impressive.<span class='br'></span>Cart icon at the top right was placed thougtfully. But the next and previous button confuse me.<span class='br'></span>Placing a cake order is easy.<span class='br'></span>Loving the minimal UI."
+            }
+          ]
+        },
+        {
+          "size": "full",
+          "head": "Design Iteration",
+          "msg": "During the iterative design process, I received feedback from users that the next and previous button was confusing as the state of both bottons was true at the first page of cakes. So I decided to keep the state of the previous button as false at the first page and make it true when at the second page. This applies to the last page of the list of cakes correspondingly.<br/>"
+        },
+        {
+          "size": "12/12",
+          "head": "Prototype",
+          "col": [
+            {
+              "size": "12",
+              "msg": "Here is the prototype of Happyish cakes website where people can order cakes and get them delivered. They shall order their customized cake types. They can choose to pay on delivery or pay online. <br></br><video loop src='./assets/casestudy/cake_prototype.mov' muted playsinline  autoplay></video>"
             }
           ]
         },

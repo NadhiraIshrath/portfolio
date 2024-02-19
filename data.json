@@ -300,8 +300,8 @@
       "desc": "Find Tutors Near You",
       "img": "casestudy/brilliant_cover.png",
       "bg": "#CCDAFF",
-      "color": "#195bff",
-      "color-sec": "#3670FF",
+      "color": "#0048FF",
+      "color-sec": "#1A5CFF",
       "portrait": "false",
       "e_data": [
         {
@@ -754,6 +754,32 @@
     }
   ],
   "motion_design": [
+    {
+      "title": "UniShine Website",
+      "desc": "University Counselling For Students",
+      "img": "animation/unishine.png",
+      "bg": "#D6DAF5",
+      "portrait": "false",
+      "color": "#293AA3",
+      "context": "Students find it hard to choose their university in US and Uk. Unishine offers expert guidance for US & UK Universities.",
+      "color-sec": "#485BD1",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "5",
+              "msg": "Students find it hard to choose their university in US and Uk. Unishine offers expert guidance for US & UK Universities.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>Users already view it with a lot of seriousness as its a counselling website. So I wanted to add more life to the user interface as its already a bit boring. Adding micro-interactions to each section of the page sums more attraction to the website. I created a letter typing animation using figma to make the user focus on the main content on the page.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "7",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/unishine_prototype.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
+    },
     {
       "title": "Magnified Interaction",
       "desc": "Viewing Feature Animation",

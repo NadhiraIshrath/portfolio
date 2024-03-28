@@ -933,6 +933,19 @@
   ],
   "blogs": [
     {
+      "title": "GST Reconciliation - Case Study",
+      "desc": "Joining Tables for reconciliation",
+      "img": "gst.png",
+      "portrait": "false",
+      "bg": "#C8E3FF",
+      "context": "GST reconciliation is the meticulous comparison of the data filed by the taxpayer in their GST returns with the details present in the government’s portal. This process ensures that the financial information provided by the tax payer aligns with the government’s records, leading to accurate and error-free reporting. I wrote up a blog on how I designed the data grid creation experience for GST reconciliation.",
+      "color": "#004A94",
+      "color-sec": "#006AD5",
+      "context_img": "gst_body.png",
+      "url_text": "Read On Medium",
+      "url": "https://medium.com/@nadhiraishrath/designing-the-data-grid-creation-experience-for-gst-reconciliation-a-ui-ux-case-study-69f4b9bd15a1?source=user_profile---------0----------------------------"
+    },
+    {
       "title": "Micro-Interaction Button",
       "desc": "Adopt Pets Animation",
       "img": "cat_2.png",

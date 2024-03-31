@@ -325,11 +325,6 @@
           "msg": "Design a application to help the users find best and certified tutors around for their children who offer online and offline classes."
         },
         {
-          "size": "full",
-          "head": "What Brilliant offers?",
-          "msg": "Brilliant is designed to simplify the process of finding tutors near you. Many parents struggle to find the best tutors for the educational needs of their children.<br><br>To solve this problem I have implemented a simple UI/UX design solution that displays all the certified, top tutors near the users area and the users can request for trial classes from the tutors and then pay the total fee.<br><br>Additionally, I have included a <b>Add notes</b> feature where tutors can add exclusive notes of the lessons they are about to teach in the upcoming classes. Using the <b>Assignment submission</b> feature students can submit their assignments through the application and are notified about the deadline as well.<br>With these features Brilliant is designed to create a hassle free experience for the users to find the top tutors around them."
-        },
-        {
           "size": "7/5",
           "head": "Find Tutors Near You",
           "col": [

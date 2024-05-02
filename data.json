@@ -316,8 +316,8 @@
         },
         {
           "size": "full",
-          "head": "Prompt",
-          "msg": "Many parents struggle to find the best tutors for the educational needs of their children. Parents discover tutors by soliciting recommendations from other parents at their children's school. Parents have no clue what topics the tutors are skilled at teaching, or if they are instructors at all."
+          "head": "Project Overview",
+          "msg": "Many parents struggle to find the best tutors for the educational needs of their children. Parents discover tutors by soliciting recommendations from other parents at their children's school. Parents have no clue what topics the tutors are skilled at teaching, or if they are instructors at all. With this application, customers can easily search for tutors around their household, eliminating the idea of blindly trusting someone else’s words as users can request for trial classes before deciding to join."
         },
         {
           "size": "full",
@@ -326,67 +326,37 @@
         },
         {
           "size": "7/5",
-          "head": "Find Tutors Near You",
+          "head": "Phase 1 - Discover",
           "col": [
             {
-              "size": "7",
-              "msg": "Brilliant offers a efficient solution for the common problem that the users face like the difficulty in finding tutors for their kids who are the best at their work. This app simplifies the process of finding tutors around the users area and enhances the customer experience.<br><br>With this application, customers can easily search for tutors around their household, eliminating the idea of blindly trusting someone else’s words as users can request for trial classes before deciding to join.<br><br>Additionally add notes and assignment submission feature  creates a hassle free process for the students to refer their notes and submit their assignments. <br><br>This app makes it easy for you to find the best tutors around eliminating the solicitation of recommendations from other parents at their children's school having no clue on what the tutors are really proficient at.<br><br>"
+              "size": "8",
+              "msg": "<b>Who are the people we are designing for?</b><br>-> People in the age group of 40-55 years as its the general age of the parents having kids ranging from 14-18 years of age.<br> -> People with children having lower grades.<br><b>What are their pain points?</b><br> -> Cannot Judge the proficiency of Tutors<br> -> Cannot decide on the tutors blindly based on someone else recommendation<br> -> Need to find best tutors near my location<br> <b>Key Needs</b><br>a) Trustable rating and feedback of tutors<br>b) Find tutors near me<br>c) Cultivate trust for tutors amongst users"
             },
             {
-              "size": "5",
+              "size": "4",
               "img": "casestudy/find_tutors.png"
             }
           ]
         },
         {
           "size": "12/12",
-          "head": "Target Audience",
+          "head": "Phase 2 - Define",
           "col": [
             {
               "size": "12",
-              "type": "point",
-              "color": "#195bff",
-              "msg": "People in the age group of 40-55 years as its the general age of the parents having kids ranging from 14-18 years of age."
+              "msg": "The methodoly I followed to solve the problem was user personas, ideation and low-fidelity wireframes.<br>"
             },
             {
               "size": "12",
               "type": "point",
-              "color": "#195bff",
-              "msg": "People with children having lower grades."
-            }
-          ]
-        },
-        {
-          "size": "12/12",
-          "head": "Features",
-          "col": [
-            {
-              "size": "12",
-              "type": "point",
-              "color": "#195bff",
-              "msg": "Add trial class feature to eliminate the blind trust on tutors"
+              "color": "#0048FF",
+              "msg": "<b>Ideation</b><br>After understanding the user needs, I decided to decode their user journeys and ideated my decisions about the features and the app flow. The features were,<br> -> Add trial class feature to help the users decide before choosing a tutor<br> -> Provide ratings of the tutors <br> -> Show success stories of the tuitions to cultivate trust amongst the users<br> -> Locate tutors near the users<br> -> Submit assignments and download notes"
             },
             {
               "size": "12",
               "type": "point",
-              "color": "#195bff",
-              "msg": "Submit assignment and download notes"
-            },
-            {
-              "size": "12",
-              "type": "point",
-              "color": "#195bff",
-              "msg": "Locate tuitions near users"
-            }
-          ]
-        },
-        {
-          "size": "12/12",
-          "head": "Low Fidelity Wireframes",
-          "col": [
-            {
-              "size": "12",
-              "msg": "The idea of the product is to allow the customers to easily search for tutors near their home eliminating the trouble of searching for tutors.<br><br>The goal was to provide customers with an easy method to identify tutors and attend trial lessons so that consumers could decide whether or not to enroll in full-time programs."
+              "color": "#0048FF",
+              "msg": "<b>Low-Fidelity Wireframes</b><br>After the brainstorming session about the user scenarios and their journeys, I mapped the user journeys in my mind and designed the initial wireframes of the application. The goal was to provide customers with an easy method to identify tutors and attend trial lessons so that consumers could decide whether or not to enroll in full-time programs. Through rapid sketching, I explored a variety of layouts and interaction patterns ensuring that the app felt more trustworthy. This iterative method made it easier to find design components that the users could easily navigate and interact with.<br>"
             },
             {
               "size": "12",
@@ -396,27 +366,7 @@
         },
         {
           "size": "12/12",
-          "head": "Usability Testing",
-          "col": [
-            {
-              "size": "12",
-              "msg": "I conducted a usability test with a group of potential consumers to check the application's functionality and identify issues. This implied monitoring individuals while they engaged with the prototype and collected feedback on their experience. Through this approach, I acquired useful insights that assisted me in identifying areas for development and making essential tweaks to better the user experience."
-            },
-            {
-              "size": "12",
-              "msg": "<h6 class='m-l30'>Key Takeaways</h6><br><span class='m-l30'>Here are some of the key takeaways from our guerrilla user testing sessions.</span>"
-            },
-            {
-              "size": "12",
-              "type": "quote",
-              "color": "#195bff",
-              "msg": "The colour scheme used didn’t make me feel like I am using some kind of an education app.<span class='br'></span>I loved using the trial class feature as it helped me and my child in deciding which tutor would be the best.<span class='br'></span>It would be helpful to have more information about the tutors for each subjects and the fee.<span class='br'></span>The process of finding nearby tutors was very easy to use."
-            }
-          ]
-        },
-        {
-          "size": "12/12",
-          "head": "High-Fidelity UI Design",
+          "head": "Phase 3 - Design",
           "col": [
             {
               "size": "12",
@@ -436,7 +386,27 @@
             },
             {
               "size": "12",
-              "img": "casestudy/highfidelity_uidesign.png"
+              "img": "casestudy/mockups_brilliant.png"
+            }
+          ]
+        },
+        {
+          "size": "12/12",
+          "head": "Usability Testing",
+          "col": [
+            {
+              "size": "12",
+              "msg": "I conducted a usability test with a group of potential consumers to check the application's functionality and identify issues. This implied monitoring individuals while they engaged with the prototype and collected feedback on their experience. Through this approach, I acquired useful insights that assisted me in identifying areas for development and making essential tweaks to better the user experience."
+            },
+            {
+              "size": "12",
+              "msg": "<h6 class='m-l30'>Key Takeaways</h6><br><span class='m-l30'>Here are some of the key takeaways from our user testing sessions.</span>"
+            },
+            {
+              "size": "12",
+              "type": "quote",
+              "color": "#195bff",
+              "msg": "The colour scheme used didn’t make me feel like I am using some kind of an education app.<span class='br'></span>I loved using the trial class feature as it helped me and my child in deciding which tutor would be the best.<span class='br'></span>It would be helpful to have more information about the tutors for each subjects and the fee.<span class='br'></span>The process of finding nearby tutors was very easy to use."
             }
           ]
         },

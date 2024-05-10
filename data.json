@@ -317,7 +317,7 @@
         {
           "size": "full",
           "head": "Project Overview",
-          "msg": "Many parents struggle to find the best tutors for the educational needs of their children. Parents discover tutors by soliciting recommendations from other parents at their children's school. Parents have no clue what topics the tutors are skilled at teaching, or if they are instructors at all. With this application, customers can easily search for tutors around their household, eliminating the idea of blindly trusting someone else’s words as users can request for trial classes before deciding to join."
+          "msg": "Many parents struggle to find the best tutors for the educational needs of their children. Parents discover tutors by soliciting recommendations from other parents at their children's school. Parents have no clue what topics the tutors are skilled at teaching, or if they are instructors at all."
         },
         {
           "size": "full",
@@ -329,11 +329,11 @@
           "head": "Phase 1 - Discover",
           "col": [
             {
-              "size": "8",
-              "msg": "<b>Who are the people we are designing for?</b><br>-> People in the age group of 40-55 years as its the general age of the parents having kids ranging from 14-18 years of age.<br> -> People with children having lower grades.<br><b>What are their pain points?</b><br> -> Cannot Judge the proficiency of Tutors<br> -> Cannot decide on the tutors blindly based on someone else recommendation<br> -> Need to find best tutors near my location<br> <b>Key Needs</b><br>a) Trustable rating and feedback of tutors<br>b) Find tutors near me<br>c) Cultivate trust for tutors amongst users"
+              "size": "7",
+              "msg": "When I was boarded into the project, the team had to go live within a month with an MVP to pitch in their ideas to the investors. So I was constrained to figure out the type of users they were targetting at. The initial business requirement was to design a MVP for grades 10, 11, 12. <br><br> The target audience were, <br><b>-> Parents having kids in grades 10, 11, 12.<br> -> Parents with children having lower grades.</b><br> I however took the privilege of taking to a small sample of parents around the teams neighbourhood to really understand their pain points.<br><br> <b>What are their pain points?</b><br> -> Cannot Judge the proficiency of Tutors<br> -> Cannot decide on the tutors blindly based on someone else recommendation<br> -> Need to find best tutors near my location"
             },
             {
-              "size": "4",
+              "size": "5",
               "img": "casestudy/find_tutors.png"
             }
           ]
@@ -370,11 +370,7 @@
           "col": [
             {
               "size": "12",
-              "msg": "Once the initial flow was completed and the wireframes were ready, I started creating a couple of main screens for the app. Choosing the typeface and the set of colours were the two most significant tasks. I created a simple UI style guide to maintain consistency.Then I created a typography scale to ensure that hierarchy is preserved throughout the project."
-            },
-            {
-              "size": "4",
-              "msg": "<b>Colors</b><br /><span style='font-weight: 300'>Primary</span><div class='color-circle-wrapper d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #5d8bff'></span><span class='color-circle'        style='--colr: #BEBEBE'></span><span class='color-circle' style='--colr: #FFFFFF'></span></div><span style='font-weight: 300'class='m-l30'>Secondary</span><br /><div class='color-circle-wrapper2 d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #BB3535'></span><span class='color-circle'        style='--colr: #50BB35'></span><span class='color-circle' style='--colr: #FEBF2C'></span><span        class='color-circle' style='--colr: #D9D9D9'></span><span class='color-circle'        style='--colr: #A9A9A9'></span><span class='color-circle' style='--colr: #949494'></span><span        class='color-circle' style='--colr: #232323'></span></div>"
+              "msg": "Once the initial flow was completed and the wireframes were ready, I started creating a couple of main screens for the app. Choosing the typeface and the set of colours were the two most significant tasks. I created a simple UI style guide to maintain consistency. Then I created a typography scale to ensure that hierarchy is preserved throughout the project."
             },
             {
               "size": "4",
@@ -383,6 +379,14 @@
             {
               "size": "4",
               "msg": "<b>Build trust</b><br/><span>With the insightful journey videos of the tuitions, users eventually gained trust on the classes.</span>"
+            },
+            {
+              "size": "12",
+              "msg": "<b>Colors</b><br> Considering the color psychology, I decided to go with a yellow color because it reflects optimism, clarity and warmth. However after checking the accessibility, contrast ratio of it was way off the board, we decided to choose a different color from the color palette. <br><b>Blue</b> stood for trust, strength and dependability. We went ahead with a highly saturated blue to achieve a commendable contrast ratio. "
+            },
+            {
+              "size": "4",
+              "msg": "<span style='font-weight: 300'><b>Primary colors</b></span><div class='color-circle-wrapper d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #346BF7'></span><span class='color-circle'        style='--colr: #BEBEBE'></span><span class='color-circle' style='--colr: #FFFFFF'></span></div><span style='font-weight: 300'class='m-l30'><b>Secondary colors</b></span><br /><div class='color-circle-wrapper2 d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #F7F7F9'></span><span class='color-circle'        style='--colr: #CCCCCC'></span><span class='color-circle' style='--colr: #131B31'></span></div><span style='font-weight: 300'class='m-l30'><b>Semantic colors</b></span><br /><div class='color-circle-wrapper2 d-flex align-items-center m-l30'>    <span class='color-circle' style='--colr: #BB3535'></span><span class='color-circle'        style='--colr: #50BB35'></span><span class='color-circle' style='--colr: #FEBF2C'></span></div><span style='font-weight: 300'class='m-l30'><b>Neutral colors</b></span><br /><div class='color-circle-wrapper2 d-flex align-items-center m-l30'>    <span        class='color-circle' style='--colr: #D9D9D9'></span><span class='color-circle'        style='--colr: #A9A9A9'></span><span class='color-circle' style='--colr: #949494'></span><span        class='color-circle' style='--colr: #232323'></span></div>"
             },
             {
               "size": "12",
@@ -396,7 +400,7 @@
           "col": [
             {
               "size": "12",
-              "msg": "I conducted a usability test with a group of potential consumers to check the application's functionality and identify issues. This implied monitoring individuals while they engaged with the prototype and collected feedback on their experience. Through this approach, I acquired useful insights that assisted me in identifying areas for development and making essential tweaks to better the user experience."
+              "msg": "I conducted a usability test with a group of potential consumers to check the application's functionality and identify issues. This implied monitoring individuals while they engaged with the prototype and collecting feedback on their experience. Through this approach, I acquired useful insights that assisted me in identifying areas for development and making essential tweaks to better the user experience."
             },
             {
               "size": "12",
@@ -406,14 +410,14 @@
               "size": "12",
               "type": "quote",
               "color": "#195bff",
-              "msg": "The colour scheme used didn’t make me feel like I am using some kind of an education app.<span class='br'></span>I loved using the trial class feature as it helped me and my child in deciding which tutor would be the best.<span class='br'></span>It would be helpful to have more information about the tutors for each subjects and the fee.<span class='br'></span>The process of finding nearby tutors was very easy to use."
+              "msg": "Users cannot read text properly.<span class='br'></span>Users cannot clearly understand the information displayed for booking trial class.<span class='br'></span>Cannot trust tutors with their level of proficiency and book fulltime classes."
             }
           ]
         },
         {
           "size": "full",
           "head": "Design Iteration",
-          "msg": "During the iterative design process, I received feedback from users that the <b>colour scheme</b> used didn’t make them feel like they were using an education app. I decided to experiment with different colours which could make the users feel reliable. Additionally, I wanted to <b>build more trust</b> amongst the users so I thought of adding stories of successful children from specific tuitions. I also adjusted the typography to ensure that it was clear and easy to read.<br/><br/>Another area I iteratively improved upon was the <b>choice of icons</b> used in the app. I initially used a clumsy course icon for the courses page on the menu bar which made some users take extra time to figure out what the actual icon was. I then designed a simple book icon which helped users quickly understand the functionality of the app.<br/><br/>In addition to these changes, I iteratively refined other design elements such as the layout of the tuition page where the tutors name and image was displayed. Further addition of a video which portrays success story of the institution helped build trust with the customers.<br/><br/>Each iteration was made by user feedback, with the goal of making the app more user-friendly, visually appealing, and effective at helping users choose the best tutors easily.<br/><br/>By using an iterative design process, I was able to make incremental improvements to the app over time, leading to a final design that effectively met the needs and preferences of our users.",
+          "msg": "During the iterative design process, I received feedback from users that the <b>readability</b> of the app was affected because of the <b>color scheme</b> used. However after checking the accessibility, contrast ratio of it was way off the board, we decided to choose a different color from the color palette. I decided to experiment with different colours which could make the users feel reliable. <br><br>Additionally, I wanted to <b>build more trust</b> amongst the users so I introduced a strategy of adding stories of successful children from specific tuitions. Because it brings in more trust amongst people. <br/><br/>Another area I iteratively improved upon was the <b>choice of icons</b> used in the app. I initially used a clumsy course icon for the courses page on the menu bar which made some users take extra time to figure out what the actual icon was. I then designed a simple book icon which helped users quickly understand the functionality of the app.<br/><br/>In addition to these changes, I iteratively refined other design elements such as the layout of the tuition page where the tutors name and image was displayed. <br/><br/>Each iteration was made by user feedback, with the goal of making the app more user-friendly, visually appealing, and effective at helping users choose the best tutors easily.<br/><br/>By using an iterative design process, I was able to make incremental improvements to the app over time, leading to a final design that effectively met the needs and preferences of our users.",
           "col": [
             {
               "size": "12",

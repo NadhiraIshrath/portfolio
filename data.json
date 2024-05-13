@@ -724,6 +724,32 @@
   ],
   "motion_design": [
     {
+      "title": "Responsive Website - Livespace ",
+      "desc": "Design your dream homes",
+      "img": "animation/livespace.png",
+      "bg": "#CCCCCC",
+      "portrait": "false",
+      "color": "#2c2c2c",
+      "context": "Students find it hard to choose their university in US and Uk. Unishine offers expert guidance for US & UK Universities.",
+      "color-sec": "#404040",
+      "e_data": [
+        {
+          "size": "7/5",
+          "head": "About",
+          "col": [
+            {
+              "size": "5",
+              "msg": "To design a responsive landing page for a interior design website.<div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Solution</h5></div><p id='context-desc' class='card-text'>The content of the landing page was decided based on what they offer and their previous works. The breakpoints were decided based on the project requirement. The layout appropriately adapts with stretch and shrink. I chose to go follow a <b>4-point grid system</b> for desktop, tablet and mobile with appropriate paddings to each of the devices.<br></p></div><br><div class='d-flex  flex-column align-items-start'><div class='d-flex align-items-center'><div class='bar' style='background: rgb(191,28,28);margin-left:27px'> </div><h5 class='card-title'>Tools</h5></div><p id='context-desc' class='card-text'>Figma</p></div><br>"
+            },
+            {
+              "size": "7",
+              "msg": "<video style='margin-top:-45px' loop src='./assets/animation/livespace.mov' muted playsinline  autoplay></video>"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "UniShine Website",
       "desc": "University Counselling For Students",
       "img": "animation/unishine.png",

@@ -410,7 +410,7 @@
               "size": "12",
               "type": "quote",
               "color": "#195bff",
-              "msg": "Users cannot read text properly.<span class='br'></span>Users cannot clearly understand the information displayed for booking trial class.<span class='br'></span>Cannot trust tutors with their level of proficiency and book fulltime classes."
+              "msg": "Users cannot read text properly.<span class='br'></span>Users cannot clearly understand the information displayed for booking trial class."
             }
           ]
         },
@@ -421,7 +421,7 @@
           "col": [
             {
               "size": "12",
-              "msg": "<video style='width:500px;height:500px' loop src='./assets/animation/before-after.mov' muted playsinline autoplay></video>"
+              "msg": "<video style='width:500px;height:500px' loop src='./assets/animation/before-after_1.mov' muted playsinline autoplay></video>"
             }
           ]
         },

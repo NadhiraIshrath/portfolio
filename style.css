@@ -450,8 +450,11 @@ main {
   border-radius: 22px;
 }
 
+
+
 #contact .view-btn,
-#projects-detail .view-btn {
+#projects-detail .view-btn,
+#explore .view-btn {
   border: none !important;
   box-shadow: rgb(0 0 0 / 15%) 0px 0px 40px;
   height: 2.4rem;
@@ -466,6 +469,10 @@ main {
   margin-top: 15px;
   padding: 0 15px !important;
   margin-left: 30px;
+}
+
+#explore .view-btn {
+  margin-left: 0 !important;
 }
 
 #contact .view-btn {
